@@ -1,0 +1,17 @@
+{
+  "name": "business_basic",
+  "data_type": "business",
+  "fields": [
+    { "name": "address" },
+    { "name": "city" },
+    { "name": "country" },
+    { "name": "keys", "flatten": false },
+    { "name": "latitude" },
+    { "name": "longitude" },
+    { "name": "name" },
+    { "name": "postalCode" },
+    { "name": "province" },
+    { "name": "sourceURLs", "flatten": false },
+    { "name": "websites", "flatten": false }
+  ]
+}

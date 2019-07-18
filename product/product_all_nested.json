@@ -1,0 +1,121 @@
+{
+  "data_type": "product",
+  "name": "product_all_nested",
+  "fields": [
+    { "name": "asins", "flatten": false },
+    { "name": "brand", "flatten": true },
+    { "name": "categories", "flatten": false },
+    { "name": "colors", "flatten": false },
+    { "name": "count", "flatten": true },
+    { "name": "dateAdded", "flatten": true },
+    { "name": "dateUpdated", "flatten": true },
+    { "name": "descriptions", "flatten": false, "sub_fields": [
+        { "name": "dateSeen", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "dimension", "flatten": true },
+    { "name": "ean",  "flatten": true },
+    { "name": "features", "flatten": false, "sub_fields": [
+        { "name": "key", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "financingAndLeasing", "flatten": false, "sub_fields": [
+    	{ "name": "additionalDetails", "flatten": true },
+	{ "name": "apr", "flatten": true },
+	{ "name": "currency", "flatten": true },
+	{ "name": "dateSeen", "flatten": true },
+	{ "name": "dueAtSigningMin", "flatten": true },
+	{ "name": "dueAtSigningMax", "flatten": true },
+	{ "name": "disclaimers", "flatten": true },
+	{ "name": "milesPerYear", "flatten": true },
+	{ "name": "monthlyPaymentMin", "flatten": true },
+	{ "name": "monthlyPaymentMax", "flatten": true },
+	{ "name": "name", "flatten": true },
+	{ "name": "offerStartDate", "flatten": true },
+	{ "name": "offerEndDate", "flatten": true },
+	{ "name": "securityDepositMin", "flatten": true },
+	{ "name": "securityDepositMax", "flatten": true },
+	{ "name": "sourceURLs", "flatten": true },
+	{ "name": "term", "flatten": true }
+      ]     
+    },
+    { "name": "flavors", "flatten": false },
+    { "name": "imageURLs", "flatten": false },
+    { "name": "isbn", "flatten": true },
+    { "name": "keys", "flatten": false },
+    { "name": "manufacturer", "flatten": true },
+    { "name": "manufacturerNumber", "flatten": true },
+    { "name": "merchants",  "flatten": false, "sub_fields": [
+        { "name": "address", "flatten": true },
+        { "name": "availability", "flatten": true },
+        { "name": "city", "flatten": true },
+        { "name": "country", "flatten": true },
+        { "name": "dateSeen", "flatten": true },
+        { "name": "isPrivateSeller", "flatten": true },
+        { "name": "name", "flatten": true },
+        { "name": "phone", "flatten": true },
+        { "name": "postalCode", "flatten": true },
+        { "name": "province", "flatten": true }
+      ]
+    },
+    { "name": "name", "flatten": true },
+    { "name": "primaryCategories", "flatten": false },
+    { "name": "prices", "flatten": false, "sub_fields": [
+        { "name": "amountMax", "flatten": true },
+        { "name": "amountMin", "flatten": true },
+        { "name": "availability", "flatten": true },
+        { "name": "color", "flatten": true },
+        { "name": "condition", "flatten": true },
+        { "name": "count", "flatten": true },
+        { "name": "currency", "flatten": true },
+        { "name": "dateSeen", "flatten": true },
+        { "name": "flavor", "flatten": true },
+        { "name": "isSale", "flatten": true },
+        { "name": "isSold", "flatten": true },
+        { "name": "merchant", "flatten": true },
+        { "name": "offer", "flatten": true },
+        { "name": "returnPolicy", "flatten": true },
+        { "name": "shipping", "flatten": true },
+        { "name": "size", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "warranty", "flatten": true }
+      ]
+    },
+    { "name": "quantities", "flatten": false, "sub_fields": [
+        { "name": "dateSeen", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "reviews", "flatten": false, "sub_fields": [
+        { "name": "date", "flatten": true },
+        { "name": "dateSeen", "flatten": true },
+        { "name": "didPurchase", "flatten": true },
+        { "name": "doRecommend", "flatten": true },
+        { "name": "id", "flatten": true },
+        { "name": "numHelpful", "flatten": true },
+        { "name": "rating", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "text",  "flatten": true },
+        { "name": "title", "flatten": true },
+        { "name": "userCity", "flatten": true },
+        { "name": "userProvince", "flatten": true },
+        { "name": "username", "flatten": true }
+      ]
+    },
+    { "name": "sizes", "flatten": false },
+    { "name": "skus", "flatten": false, "sub_fields": [
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "sourceURLs", "flatten": false },
+    { "name": "upc", "flatten": false },
+    { "name": "vin", "flatten": true },
+    { "name": "websiteIDs", "flatten": false },
+    { "name": "weight", "flatten": true }
+  ]
+}

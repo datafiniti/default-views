@@ -1,0 +1,32 @@
+{
+  "name": "default",
+  "data_type": "people",
+  "fields": [
+    {"name": "address"},
+    {"name": "businessName"},
+    {"name": "businessCategories", "flatten": false},
+    {"name": "city"},
+    {"name": "country"},
+    {"name": "dateAdded"},
+    {"name": "dateUpdated"},
+    {"name": "emails", "flatten": false},
+    {"name": "firstName"},
+    {"name": "keys", "flatten": false},
+    {"name": "lastName"},
+    {"name": "linkedinURL"},
+    {"name": "jobFunction"},
+    {"name": "jobLevel"},
+    {"name": "jobTitle"},
+    {"name": "numEmployeesMin"},
+    {"name": "numEmployeesMax"},
+    {"name": "phones",  "flatten": false},
+    {"name": "postalCode"},
+    {"name": "province"},
+    {"name": "revenueCurrency"},
+    {"name": "revenueMin"},
+    {"name": "revenueMax"},
+    {"name": "sic"},
+    {"name": "sourceURLs",  "flatten": false},
+    {"name": "websites",  "flatten": false}
+  ]
+}

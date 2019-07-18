@@ -1,0 +1,102 @@
+{
+  "data_type": "business",
+  "name": "business_all_nested",
+  "fields": [
+    { "name": "address", "flatten": true },
+    { "name": "careerPageURL", "flatten": true },
+    { "name": "categories", "flatten": false },
+    { "name": "city", "flatten": true },
+    { "name": "claimed", "flatten": false },
+    { "name": "country", "flatten": true },
+    { "name": "cuisines", "flatten": false },
+    { "name": "dateAdded", "flatten": true },
+    { "name": "dateUpdated", "flatten": true },
+    { "name": "descriptions", "flatten": false, "sub_fields": [
+        { "name": "dateSeen", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "emails", "flatten": false },
+    { "name": "facebookPageURL", "flatten": true },
+    { "name": "faxes", "flatten": false },
+    { "name": "features", "flatten": false, "sub_fields": [
+        { "name": "key", "flatten": true },
+        { "name": "value", "flatten": true }
+      ]
+    },
+    { "name": "hours", "flatten": false, "sub_fields": [
+        { "name": "day", "flatten": true },
+        { "name": "dept", "flatten": true },
+        { "name": "meal", "flatten": true },
+        { "name": "hour", "flatten": true }
+      ]
+    },
+    { "name": "imageURLs", "flatten": false },
+    { "name": "isClosed", "flatten": true },
+    { "name": "keys", "flatten": false },
+    { "name": "languagesSpoken", "flatten": false },
+    { "name": "latitude", "flatten": true },
+    { "name": "longitude", "flatten": true },
+    { "name": "menuPageURL",  "flatten": true },
+    { "name": "menus", "flatten": false, "sub_fields": [
+        { "name": "amountMax", "flatten": true },
+        { "name": "amountMin", "flatten": true },
+        { "name": "category", "flatten": true },
+        { "name": "currency", "flatten": true },
+        { "name": "dateSeen", "flatten": true },
+        { "name": "description", "flatten": true },
+        { "name": "name", "flatten": true },
+        { "name": "sourceURLs", "flatten": true }
+      ]
+    },
+    { "name": "name", "flatten": true },
+    { "name": "neighborhoods", "flatten": false },
+    { "name": "numEmployeesMin", "flatten": true },
+    { "name": "numEmployeesMax", "flatten": true },
+    { "name": "numRoom", "flatten": true },
+    { "name": "ownershipType", "flatten": true },
+    { "name": "paymentTypes", "flatten": false },
+    { "name": "people", "flatten": false, "sub_fields": [
+        { "name": "dateSeen", "flatten": true },
+        { "name": "email", "flatten": true },
+        { "name": "name", "flatten": true },
+        { "name": "phone", "flatten": true },
+        { "name": "title", "flatten": true }
+      ]
+    },
+    { "name": "phones", "flatten": false },
+    { "name": "postalCode", "flatten": true },
+    { "name": "primaryCategories", "flatten": false },
+    { "name": "priceRangeCurrency", "flatten": true },
+    { "name": "priceRangeMin", "flatten": true },
+    { "name": "priceRangeMax", "flatten": true },
+    { "name": "productsOrServices", "flatten": false },
+    { "name": "province", "flatten": true },
+    { "name": "revenueCurrency", "flatten": true },
+    { "name": "revenueMin", "flatten": true },
+    { "name": "revenueMax", "flatten": true },
+    { "name": "reviews", "flatten": false, "sub_fields": [
+        { "name": "date", "flatten": true },
+        { "name": "dateSeen", "flatten": true },
+        { "name": "doRecommend", "flatten": true },
+        { "name": "id", "flatten": true },
+        { "name": "rating", "flatten": true },
+        { "name": "sourceURLs", "flatten": true },
+        { "name": "text", "flatten": true },
+        { "name": "title", "flatten": true },
+        { "name": "userCity", "flatten": true },
+        { "name": "username", "flatten": true },
+        { "name": "userProvince", "flatten": true }
+      ]
+    },
+    { "name": "sic", "flatten": true },
+    { "name": "sourceURLs", "flatten": false },
+    { "name": "stockSymbol", "flatten": true },
+    { "name": "technologiesUsed", "flatten": false },
+    { "name": "twitter", "flatten": true },
+    { "name": "websites", "flatten": false },
+    { "name": "yearIncorporated", "flatten": true },
+    { "name": "yearOpened", "flatten": true }
+  ]
+}
