@@ -37,7 +37,7 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
-    { "name": "parking" },
+    { "name": "parking", "flatten": false },
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false },
     { "name": "petPolicy" },
