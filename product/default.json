@@ -12,6 +12,8 @@
     { "name": "descriptions", "flatten": false },
     { "name": "dimension" },
     { "name": "ean", "flatten": false },
+    { "name": "ean8" },
+    { "name": "ean13" },
     { "name": "features", "flatten": false },
     { "name": "financingAndLeasing", "flatten": false, "sub_fields": [
         { "name": "additionalDetails", "flatten": true },
@@ -34,6 +36,7 @@
       ]
     },
     { "name": "flavors", "flatten": false },
+    { "name": "gtins", "flatten": false },
     { "name": "imageURLs", "flatten": false },
     { "name": "isbn" },
     { "name": "keys", "flatten": false },
@@ -85,6 +88,8 @@
     { "name": "skus", "flatten": false },
     { "name": "sourceURLs", "flatten": false },
     { "name": "upc", "flatten": false },
+    { "name": "upce" },
+    { "name": "upca" },
     { "name": "vin" },
     { "name": "websiteIDs", "flatten": false },
     { "name": "weight" }

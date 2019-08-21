@@ -17,6 +17,8 @@
     },
     { "name": "dimension", "flatten": true },
     { "name": "ean",  "flatten": true },
+    { "name": "ean8", "flatten": true },
+    { "name": "ean13", "flatten": true },
     { "name": "features", "flatten": false, "sub_fields": [
         { "name": "key", "flatten": true },
         { "name": "value", "flatten": true }
@@ -43,6 +45,7 @@
       ]     
     },
     { "name": "flavors", "flatten": false },
+    { "name": "gtins", "flatten": false },
     { "name": "imageURLs", "flatten": false },
     { "name": "isbn", "flatten": true },
     { "name": "keys", "flatten": false },
@@ -114,6 +117,8 @@
     },
     { "name": "sourceURLs", "flatten": false },
     { "name": "upc", "flatten": false },
+    { "name": "upce", "flatten": true },
+    { "name": "upca", "flatten": true },
     { "name": "vin", "flatten": true },
     { "name": "websiteIDs", "flatten": false },
     { "name": "weight", "flatten": true }
