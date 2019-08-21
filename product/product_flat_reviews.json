@@ -17,7 +17,6 @@
     { "name": "features", "flatten": false },
     { "name": "flavors", "flatten": false },
     { "name": "gtins", "flatten": false },
-    { "name": "isbn" },
     { "name": "imageURLs", "flatten": false },
     { "name": "isbn" },
     { "name": "keys", "flatten": false },
