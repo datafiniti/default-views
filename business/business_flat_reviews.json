@@ -16,6 +16,7 @@
     { "name": "facebookPageURL" },
     { "name": "faxes", "flatten": false },
     { "name": "features", "flatten": false },
+    { "name": "geoLocation"},
     { "name": "hours", "flatten": false },
     { "name": "imageURLs", "flatten": false },
     { "name": "isClosed" },

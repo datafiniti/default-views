@@ -32,6 +32,7 @@
         { "name": "hour", "flatten": true }
       ]
     },
+    { "name": "geoLocation"},
     { "name": "imageURLs", "flatten": false },
     { "name": "isClosed", "flatten": true },
     { "name": "keys", "flatten": false },
