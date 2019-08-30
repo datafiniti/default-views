@@ -16,6 +16,7 @@
     { "name": "fees", "flatten": false },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
+    { "name": "geoLocation"},
     { "name": "hours", "flatten": false },
     { "name": "imageURLs", "flatten": false },
     { "name": "keys", "flatten": false },
