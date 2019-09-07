@@ -29,6 +29,7 @@
     {"name": "lotSizeUnit", "flatten": false },
     {"name": "managedBy", "flatten": false },
     {"name": "mostRecentStatus", "flatten": false },
+    {"name": "mostRecentStatusDate"},
     {"name": "mlsNumber", "flatten": false },
     {"name": "nearbySchools", "flatten": false },
     {"name": "neighborhoods", "flatten": false },
