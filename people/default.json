@@ -17,6 +17,7 @@
     {"name": "jobFunction"},
     {"name": "jobLevel"},
     {"name": "jobTitle"},
+    {"name": "naics"},
     {"name": "numEmployeesMin"},
     {"name": "numEmployeesMax"},
     {"name": "phones",  "flatten": false},
