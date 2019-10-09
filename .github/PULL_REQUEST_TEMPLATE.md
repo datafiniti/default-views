@@ -4,5 +4,7 @@
 ### Verify Changes
 
 1. Merge changes into master
-2. Open up postman and hit the `Refresh Default Views` endpoint, should return a 200.
-3. Hit the endpoint that returns all default views and find the view(s) you updated to verify that the changes you made are reflected.
+2. Notify the INFRASTRUCTURE team to update the API.
+3. Once updated, verify it exists via:
+* GET https://api.datafiniti.co/v4/default-views
+* Note: You can view that in the browser ^
