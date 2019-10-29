@@ -12,24 +12,24 @@
     { "name": "dateAdded", "flatten": true },
     { "name": "dateUpdated", "flatten": true },
     { "name": "descriptions", "flatten": false, "sub_fields": [
-        { "name": "dateSeen", "flatten": true },
-        { "name": "sourceURLs", "flatten": true },
-        { "name": "value", "flatten": true }
+        { "name": "dateSeen" },
+        { "name": "sourceURLs" },
+        { "name": "value" }
       ]
     },
     { "name": "emails", "flatten": false },
     { "name": "facebookPageURL", "flatten": true },
     { "name": "faxes", "flatten": false },
     { "name": "features", "flatten": false, "sub_fields": [
-        { "name": "key", "flatten": true },
-        { "name": "value", "flatten": true }
+        { "name": "key" },
+        { "name": "value" }
       ]
     },
     { "name": "hours", "flatten": false, "sub_fields": [
-        { "name": "day", "flatten": true },
-        { "name": "dept", "flatten": true },
-        { "name": "meal", "flatten": true },
-        { "name": "hour", "flatten": true }
+        { "name": "day" },
+        { "name": "dept" },
+        { "name": "meal" },
+        { "name": "hour" }
       ]
     },
     { "name": "geoLocation"},
@@ -41,14 +41,14 @@
     { "name": "longitude", "flatten": true },
     { "name": "menuPageURL",  "flatten": true },
     { "name": "menus", "flatten": false, "sub_fields": [
-        { "name": "amountMax", "flatten": true },
-        { "name": "amountMin", "flatten": true },
-        { "name": "category", "flatten": true },
-        { "name": "currency", "flatten": true },
-        { "name": "dateSeen", "flatten": true },
-        { "name": "description", "flatten": true },
-        { "name": "name", "flatten": true },
-        { "name": "sourceURLs", "flatten": true }
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "category" },
+        { "name": "currency" },
+        { "name": "dateSeen" },
+        { "name": "description" },
+        { "name": "name" },
+        { "name": "sourceURLs" }
       ]
     },
     { "name": "name", "flatten": true },
@@ -59,11 +59,11 @@
     { "name": "ownershipType", "flatten": true },
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false, "sub_fields": [
-        { "name": "dateSeen", "flatten": true },
-        { "name": "email", "flatten": true },
-        { "name": "name", "flatten": true },
-        { "name": "phone", "flatten": true },
-        { "name": "title", "flatten": true }
+        { "name": "dateSeen" },
+        { "name": "email" },
+        { "name": "name" },
+        { "name": "phone" },
+        { "name": "title" }
       ]
     },
     { "name": "phones", "flatten": false },
@@ -78,17 +78,17 @@
     { "name": "revenueMin", "flatten": true },
     { "name": "revenueMax", "flatten": true },
     { "name": "reviews", "flatten": false, "sub_fields": [
-        { "name": "date", "flatten": true },
-        { "name": "dateSeen", "flatten": true },
-        { "name": "doRecommend", "flatten": true },
-        { "name": "id", "flatten": true },
-        { "name": "rating", "flatten": true },
-        { "name": "sourceURLs", "flatten": true },
-        { "name": "text", "flatten": true },
-        { "name": "title", "flatten": true },
-        { "name": "userCity", "flatten": true },
-        { "name": "username", "flatten": true },
-        { "name": "userProvince", "flatten": true }
+        { "name": "date"},
+        { "name": "dateSeen" },
+        { "name": "doRecommend" },
+        { "name": "id" },
+        { "name": "rating" },
+        { "name": "sourceURLs" },
+        { "name": "text" },
+        { "name": "title" },
+        { "name": "userCity" },
+        { "name": "username" },
+        { "name": "userProvince" }
       ]
     },
     { "name": "sic", "flatten": true },
