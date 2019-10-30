@@ -46,17 +46,17 @@
     { "name": "revenueMin" },
     { "name": "revenueMax" },
     { "name": "reviews", "flatten": true, "sub_fields": [
-        { "name": "date", "flatten": true },
-        { "name": "dateSeen", "flatten": true },
-        { "name": "doRecommend", "flatten": true },
-        { "name": "id", "flatten": true },
-        { "name": "rating", "flatten": true },
-        { "name": "sourceURLs", "flatten": true },
-        { "name": "text", "flatten": true },
-        { "name": "title", "flatten": true },
-        { "name": "userCity", "flatten": true },
-        { "name": "username", "flatten": true },
-        { "name": "userProvince", "flatten": true }
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "doRecommend" },
+        { "name": "id" },
+        { "name": "rating" },
+        { "name": "sourceURLs" },
+        { "name": "text" },
+        { "name": "title" },
+        { "name": "userCity" },
+        { "name": "username" },
+        { "name": "userProvince" }
       ]
     },
     { "name": "sic" },
