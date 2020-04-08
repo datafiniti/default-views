@@ -109,6 +109,8 @@
         { "name": "username" }
       ]
     },
+    { "name": "sdsURLs", "flatten": false },
+    { "name": "secondaryCategories", "flatten": false },
     { "name": "sizes", "flatten": false },
     { "name": "skus", "flatten": false, "sub_fields": [
         { "name": "sourceURLs" },
@@ -116,6 +118,7 @@
       ]
     },
     { "name": "sourceURLs", "flatten": false },
+    { "name": "stockNum", "flatten": true },
     { "name": "upc", "flatten": false },
     { "name": "upce", "flatten": true },
     { "name": "upca", "flatten": true },
