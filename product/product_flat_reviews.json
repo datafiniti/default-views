@@ -43,9 +43,12 @@
         { "name": "username" }
       ]
     },
+    { "name": "sdsURLs", "flatten": false },
+    { "name": "secondaryCategories", "flatten": false },    
     { "name": "sizes", "flatten": false },
     { "name": "skus", "flatten": false },
     { "name": "sourceURLs", "flatten": false },
+    { "name": "stockNum", "flatten": false },    
     { "name": "upc", "flatten": false },
     { "name": "upce" },
     { "name": "upca" },
