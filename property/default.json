@@ -12,7 +12,7 @@
     { "name": "dateUpdated" },
     { "name": "deposits", "flatten": false },
     { "name": "descriptions", "flatten": false },
-    { "name": "domains" },
+    { "name": "domains", "flatten": false },
     { "name": "features", "flatten": false },
     { "name": "fees", "flatten": false },
     { "name": "floorSizeValue" },

@@ -16,7 +16,7 @@
       ]
     },
     { "name": "dimension", "flatten": true },
-    { "name": "domains" },
+    { "name": "domains", "flatten": false },
     { "name": "ean",  "flatten": true },
     { "name": "ean8", "flatten": true },
     { "name": "ean13", "flatten": true },

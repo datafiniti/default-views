@@ -11,7 +11,7 @@
     { "name": "dateUpdated" },
     { "name": "descriptions", "flatten": false },
     { "name": "dimension" },
-    { "name": "domains" },
+    { "name": "domains", "flatten": false },
     { "name": "ean", "flatten": false },
     { "name": "ean8" },
     { "name": "ean13" },
