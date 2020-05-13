@@ -12,6 +12,7 @@
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
     { "name": "descriptions", "flatten": false },
+    { "name": "domains", "flatten": false },
     { "name": "emails", "flatten": false },
     { "name": "facebookPageURL" },
     { "name": "faxes", "flatten": false },
