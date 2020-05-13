@@ -9,6 +9,7 @@
     {"name": "country"},
     {"name": "dateAdded"},
     {"name": "dateUpdated"},
+    {"name": "domains"},
     {"name": "emails", "flatten": false},
     {"name": "firstName"},
     {"name": "jobFunction"},
