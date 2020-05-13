@@ -33,7 +33,7 @@
     { "name": "numEmployeesMax" },
     { "name": "numRoom" },
     { "name": "ownershipType", "flatten": false },
-    { "name": "paymentTypes" },
+    { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode" },
