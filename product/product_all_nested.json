@@ -22,6 +22,7 @@
     { "name": "ean13", "flatten": true },
     { "name": "features", "flatten": false, "sub_fields": [
         { "name": "key" },
+        { "name": "replace" },
         { "name": "value" }
       ]
     },
@@ -43,7 +44,7 @@
 		{ "name": "securityDepositMax" },
 		{ "name": "sourceURLs" },
 		{ "name": "term" }
-      ]     
+      ]
     },
     { "name": "flavors", "flatten": false },
     { "name": "gtins", "flatten": false },

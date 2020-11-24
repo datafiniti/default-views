@@ -23,6 +23,7 @@
     { "name": "faxes", "flatten": false },
     { "name": "features", "flatten": false, "sub_fields": [
         { "name": "key" },
+        { "name": "replace" },
         { "name": "value" }
       ]
     },
