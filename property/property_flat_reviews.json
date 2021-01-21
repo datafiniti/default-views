@@ -3,7 +3,6 @@
   "data_type": "property",
   "fields": [
     {"name": "address", "flatten": false },
-    {"name": "availableDates", "flatten": false },
     {"name": "brokers", "flatten": false },
     {"name": "buildingName", "flatten": false },
     {"name": "city", "flatten": false },
@@ -18,7 +17,6 @@
     {"name": "floorSizeValue", "flatten": false },
     {"name": "floorSizeUnit", "flatten": false },
     {"name": "geoLocation"},
-    {"name": "hours", "flatten": false },
     {"name": "imageURLs", "flatten": false },
     {"name": "keys", "flatten": false },
     {"name": "languagesSpoken", "flatten": false },
@@ -32,7 +30,6 @@
     {"name": "mostRecentStatus", "flatten": false },
     {"name": "mostRecentStatusDate"},
     {"name": "mlsNumber", "flatten": false },
-    {"name": "nearbySchools", "flatten": false },
     {"name": "neighborhoods", "flatten": false },
     {"name": "numBathroom", "flatten": false },
     {"name": "numBedroom", "flatten": false },
@@ -69,7 +66,6 @@
     {"name": "sourceURLs", "flatten": false },
     {"name": "statuses", "flatten": false },
     {"name": "taxID", "flatten": false },
-    {"name": "unavailableDates", "flatten": false },
     {"name": "websiteIDs", "flatten": false }
   ]
 }
