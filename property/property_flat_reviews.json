@@ -39,7 +39,7 @@
     },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
-    { "name": "geoLocation"}
+    { "name": "geoLocation"},
     { "name": "latitude" },
     { "name": "leasingTerms", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
