@@ -39,9 +39,7 @@
     },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
-    { "name": "geoLocation"},
-    { "name": "keys", "flatten": false },
-    { "name": "languagesSpoken", "flatten": false },
+    { "name": "geoLocation"}
     { "name": "latitude" },
     { "name": "leasingTerms", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
@@ -120,7 +118,6 @@
         { "name": "type" }
       ]
     },
-    { "name": "taxID" },
-    { "name": "websiteIDs", "flatten": false }
+    { "name": "taxID" }
   ]
 }
