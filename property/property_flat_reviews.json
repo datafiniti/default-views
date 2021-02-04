@@ -2,49 +2,100 @@
   "name": "property_flat_reviews",
   "data_type": "property",
   "fields": [
-    {"name": "address", "flatten": false },
-    {"name": "brokers", "flatten": false },
-    {"name": "buildingName", "flatten": false },
-    {"name": "city", "flatten": false },
-    {"name": "country", "flatten": false },
-    {"name": "dateAdded", "flatten": false },
-    {"name": "dateUpdated", "flatten": false },
-    {"name": "deposits", "flatten": false },
-    {"name": "descriptions", "flatten": false },
-    {"name": "domains", "flatten": false},
-    {"name": "features", "flatten": false },
-    {"name": "fees", "flatten": false },
-    {"name": "floorSizeValue", "flatten": false },
-    {"name": "floorSizeUnit", "flatten": false },
-    {"name": "geoLocation"},
-    {"name": "imageURLs", "flatten": false },
-    {"name": "keys", "flatten": false },
-    {"name": "languagesSpoken", "flatten": false },
-    {"name": "latitude", "flatten": false },
-    {"name": "leasingTerms", "flatten": false },
-    {"name": "listingName", "flatten": false },
-    {"name": "longitude", "flatten": false },
-    {"name": "lotSizeValue", "flatten": false },
-    {"name": "lotSizeUnit", "flatten": false },
-    {"name": "managedBy", "flatten": false },
-    {"name": "mostRecentStatus", "flatten": false },
-    {"name": "mostRecentStatusDate"},
-    {"name": "mlsNumber", "flatten": false },
-    {"name": "neighborhoods", "flatten": false },
-    {"name": "numBathroom", "flatten": false },
-    {"name": "numBedroom", "flatten": false },
-    {"name": "numFloor", "flatten": false },
-    {"name": "numPeople", "flatten": false },
-    {"name": "numRoom", "flatten": false },
-    {"name": "numUnit", "flatten": false },
-    {"name": "parking", "flatten": false },
-    {"name": "paymentTypes", "flatten": false },
-    {"name": "people", "flatten": false },
-    {"name": "petPolicy", "flatten": false },
-    {"name": "phones", "flatten": false },
-    {"name": "postalCode", "flatten": false },
-    {"name": "prices", "flatten": false },
-    {"name": "propertyTaxes", "flatten": false },
+    { "name": "address" },
+    { "name": "brokers", "flatten": false, "sub_fields": [
+        { "name": "agent" },
+        { "name": "company" },
+        { "name": "dateSeen" },
+        { "name": "emails" },
+        { "name": "phones" },
+        { "name": "websites" }
+      ]
+    },
+    { "name": "buildingName" },
+    { "name": "city" },
+    { "name": "country" },
+    { "name": "dateAdded" },
+    { "name": "dateUpdated" },
+    { "name": "deposits", "flatten": false, "sub_fields": [
+        { "name": "amount" },
+        { "name": "currency" },
+        { "name": "dateSeen" }
+      ]
+    },
+    { "name": "descriptions", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
+    { "name": "features", "flatten": false },
+    { "name": "fees", "flatten": false, "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "currency" },
+        { "name": "dateSeen" },
+        { "name": "type" }
+      ]
+    },
+    { "name": "floorSizeValue" },
+    { "name": "floorSizeUnit" },
+    { "name": "geoLocation"},
+    { "name": "keys", "flatten": false },
+    { "name": "languagesSpoken", "flatten": false },
+    { "name": "latitude" },
+    { "name": "leasingTerms", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
+    { "name": "listingName" },
+    { "name": "longitude" },
+    { "name": "lotSizeValue" },
+    { "name": "lotSizeUnit" },
+    { "name": "managedBy", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
+    { "name": "mostRecentStatus" },
+    { "name": "mostRecentStatusDate" },
+    { "name": "mlsNumber" },
+    { "name": "neighborhoods", "flatten": false },
+    { "name": "numBathroom" },
+    { "name": "numBedroom" },
+    { "name": "numFloor" },
+    { "name": "numPeople" },
+    { "name": "numRoom" },
+    { "name": "numUnit" },
+    { "name": "parking", "flatten": false },
+    { "name": "paymentTypes", "flatten": false },
+    { "name": "people", "flatten": false },
+    { "name": "petPolicy" },
+    { "name": "phones", "flatten": false },
+    { "name": "postalCode" },
+    { "name": "prices", "flatten": false, "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "availability" },
+        { "name": "comment" },
+        { "name": "currency" },
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "dateValidStart" },
+        { "name": "dateValidEnd" },
+        { "name": "isSale" },
+        { "name": "isSold" },
+        { "name": "minStay" },
+        { "name": "period" },
+        { "name": "pricePerSquareFoot" }
+      ]
+    },
+    { "name": "propertyTaxes", "flatten": false, "sub_fields": [
+        { "name": "amount" },
+        { "name": "currency" },
+        { "name": "dateSeen" }
+      ]
+    },
     {"name": "propertyType", "flatten": false },
     {"name": "province", "flatten": false },
     { "name": "reviews", "flatten": true, "sub_fields": [
@@ -61,9 +112,15 @@
         { "name": "userProvince" }
       ]
     },
-    {"name": "rules", "flatten": false },
-    {"name": "statuses", "flatten": false },
-    {"name": "taxID", "flatten": false },
-    {"name": "websiteIDs", "flatten": false }
+    { "name": "rules", "flatten": false },
+    { "name": "statuses", "flatten": false, "sub_fields": [
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "isUnderContract" },
+        { "name": "type" }
+      ]
+    },
+    { "name": "taxID" },
+    { "name": "websiteIDs", "flatten": false }
   ]
 }

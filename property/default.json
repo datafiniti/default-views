@@ -3,30 +3,60 @@
   "data_type": "property",
   "fields": [
     { "name": "address" },
-    { "name": "brokers", "flatten": false },
+    { "name": "brokers", "flatten": false, "sub_fields": [
+        { "name": "agent" },
+        { "name": "company" },
+        { "name": "dateSeen" },
+        { "name": "emails" },
+        { "name": "phones" },
+        { "name": "websites" }
+      ]
+    },
     { "name": "buildingName" },
     { "name": "city" },
     { "name": "country" },
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
-    { "name": "deposits", "flatten": false },
-    { "name": "descriptions", "flatten": false },
-    { "name": "domains", "flatten": false },
+    { "name": "deposits", "flatten": false, "sub_fields": [
+        { "name": "amount" },
+        { "name": "currency" },
+        { "name": "dateSeen" }
+      ]
+    },
+    { "name": "descriptions", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
     { "name": "features", "flatten": false },
-    { "name": "fees", "flatten": false },
+    { "name": "fees", "flatten": false, "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "currency" },
+        { "name": "dateSeen" },
+        { "name": "type" }
+      ]
+    },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
-    { "name": "imageURLs", "flatten": false },
     { "name": "keys", "flatten": false },
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
-    { "name": "leasingTerms", "flatten": false },
+    { "name": "leasingTerms", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
     { "name": "listingName" },
     { "name": "longitude" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
-    { "name": "managedBy", "flatten": false },
+    { "name": "managedBy", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "value" }
+      ]
+    },
     { "name": "mostRecentStatus" },
     { "name": "mostRecentStatusDate" },
     { "name": "mlsNumber" },
@@ -60,7 +90,12 @@
         { "name": "pricePerSquareFoot" }
       ]
     },
-    { "name": "propertyTaxes", "flatten": false },
+    { "name": "propertyTaxes", "flatten": false, "sub_fields": [
+        { "name": "amount" },
+        { "name": "currency" },
+        { "name": "dateSeen" }
+      ]
+    },
     { "name": "propertyType" },
     { "name": "province" },
     { "name": "reviews", "flatten": false, "sub_fields": [
@@ -78,7 +113,13 @@
       ]
     },
     { "name": "rules", "flatten": false },
-    { "name": "statuses", "flatten": false },
+    { "name": "statuses", "flatten": false, "sub_fields": [
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "isUnderContract" },
+        { "name": "type" }
+      ]
+    },
     { "name": "taxID" },
     { "name": "websiteIDs", "flatten": false }
   ]
