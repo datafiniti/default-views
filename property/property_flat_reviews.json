@@ -54,7 +54,6 @@
         { "name": "doRecommend" },
         { "name": "numHelpful" },
         { "name": "rating" },
-        { "name": "sourceURLs" },
         { "name": "text" },
         { "name": "title" },
         { "name": "userCity" },
@@ -63,7 +62,6 @@
       ]
     },
     {"name": "rules", "flatten": false },
-    {"name": "sourceURLs", "flatten": false },
     {"name": "statuses", "flatten": false },
     {"name": "taxID", "flatten": false },
     {"name": "websiteIDs", "flatten": false }

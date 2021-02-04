@@ -57,8 +57,7 @@
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
-        { "name": "pricePerSquareFoot" },
-        { "name": "sourceURLs" }
+        { "name": "pricePerSquareFoot" }
       ]
     },
     {"name": "propertyTaxes", "flatten": false },
@@ -66,7 +65,6 @@
     {"name": "province", "flatten": false },
     {"name": "reviews", "flatten": false },
     {"name": "rules", "flatten": false },
-    {"name": "sourceURLs", "flatten": false },
     {"name": "statuses", "flatten": false },
     {"name": "taxID", "flatten": false },
     {"name": "websiteIDs", "flatten": false }
