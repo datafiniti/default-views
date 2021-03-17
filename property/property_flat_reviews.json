@@ -118,7 +118,6 @@
         { "name": "type" }
       ]
     },
-    { "name": "taxID" },
-    { "name": "yearBuilt" }
+    { "name": "taxID" }
   ]
 }
