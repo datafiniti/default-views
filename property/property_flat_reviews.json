@@ -57,6 +57,7 @@
     },
     { "name": "mostRecentStatus" },
     { "name": "mostRecentStatusDate" },
+    { "name": "mostRecentStatusFirstDateSeen" },
     { "name": "mlsNumber" },
     { "name": "neighborhoods", "flatten": false },
     { "name": "numBathroom" },
@@ -114,6 +115,8 @@
     { "name": "statuses", "flatten": false, "sub_fields": [
         { "name": "date" },
         { "name": "dateSeen" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
         { "name": "isUnderContract" },
         { "name": "type" }
       ]
