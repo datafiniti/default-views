@@ -2,6 +2,7 @@
   "name": "product_flat_reviews",
   "data_type": "product",
   "fields": [
+    { "name": "apiURLs", "flatten": false },
     { "name": "asins", "flatten": false },
     { "name": "brand" },
     { "name": "categories", "flatten": false },
