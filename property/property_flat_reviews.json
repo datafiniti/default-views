@@ -3,6 +3,7 @@
   "data_type": "property",
   "fields": [
     { "name": "address" },
+    { "name": "apiURLs", "flatten": false },
     { "name": "brokers", "flatten": false, "sub_fields": [
         { "name": "agent" },
         { "name": "company" },
