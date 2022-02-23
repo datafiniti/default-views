@@ -2,6 +2,7 @@
   "name": "property_flat_prices",
   "data_type": "property",
   "fields": [
+    { "name": "apiURLs", "flatten": false },
     { "name": "address" },
     { "name": "brokers", "flatten": false, "sub_fields": [
         { "name": "agent" },
