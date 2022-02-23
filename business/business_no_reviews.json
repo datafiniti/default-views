@@ -3,6 +3,7 @@
   "data_type": "business",
   "fields": [
     { "name": "address" },
+    { "name": "apiURLs", "flatten": false },
     { "name": "careerPageURL" },
     { "name": "categories", "flatten": false },
     { "name": "city" },
