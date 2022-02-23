@@ -3,6 +3,7 @@
   "data_type": "product",
   "fields": [
     { "name": "asins", "flatten": false },
+    { "name": "apiURLs", "flatten": false },
     { "name": "brand" },
     { "name": "categories", "flatten": false },
     { "name": "colors", "flatten": false },
