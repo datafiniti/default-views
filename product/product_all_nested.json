@@ -3,6 +3,7 @@
   "name": "product_all_nested",
   "fields": [
     { "name": "asins", "flatten": false },
+    { "name": "apiURLs", "flatten": false },
     { "name": "brand", "flatten": true },
     { "name": "categories", "flatten": false },
     { "name": "colors", "flatten": false },
