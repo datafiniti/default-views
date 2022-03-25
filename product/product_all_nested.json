@@ -89,7 +89,7 @@
         { "name": "domain" },
         { "name": "sourceURL" },
         { "name": "date" },
-        { "name": "firstDateSeen" },
+        { "name": "firstDateSeen" }
       ]
     },
     { "name": "name", "flatten": true },
