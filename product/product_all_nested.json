@@ -68,6 +68,7 @@
       ]
     },
     { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentPriceNonSalesAmount" },
     { "name": "mostRecentPriceAvailability" },
     { "name": "mostRecentPriceCurrency" },
     { "name": "mostRecentPriceColor" },
@@ -80,6 +81,7 @@
     { "name": "mostRecentPriceFirstDateSeen" },
     { "name": "mostRecentPriceByDomain", "flatten": false, "sub_fields": [
         { "name": "amount" },
+	{ "name": "nonSalesAmount" },
         { "name": "availability" },
         { "name": "currency" },
         { "name": "color" },

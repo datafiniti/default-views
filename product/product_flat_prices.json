@@ -26,6 +26,7 @@
     { "name": "manufacturerNumber" },
     { "name": "merchants", "flatten": false },
     { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentPriceNonSalesAmount" },
     { "name": "mostRecentPriceAvailability" },
     { "name": "mostRecentPriceCurrency" },
     { "name": "mostRecentPriceColor" },
