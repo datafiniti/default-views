@@ -57,6 +57,11 @@
         { "name": "value" }
       ]
     },
+    { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentPriceDomain" },
+    { "name": "mostRecentPriceSourceURL" },
+    { "name": "mostRecentPriceDate" },
+    { "name": "mostRecentPriceFirstDateSeen" },
     { "name": "mostRecentStatus" },
     { "name": "mostRecentStatusDate" },
     { "name": "mostRecentStatusFirstDateSeen" },
