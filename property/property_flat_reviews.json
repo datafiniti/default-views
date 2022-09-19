@@ -9,6 +9,7 @@
         { "name": "company" },
         { "name": "dateSeen" },
         { "name": "emails" },
+        { "name": "licenseNumber" },
         { "name": "phones" },
         { "name": "websites" }
       ]
