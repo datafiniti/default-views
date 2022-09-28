@@ -27,7 +27,17 @@
     { "name": "latitude" },
     { "name": "longitude" },
     { "name": "menuPageURL" },
-    { "name": "menus", "flatten": true },
+    { "name": "menus", "flatten": true, "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "currency" },
+        { "name": "dateSeen" },
+        { "name": "category" },
+        { "name": "description" },
+        { "name": "name" },
+        { "name": "sourceURLs" }
+      ]
+    },
     { "name": "name" },
     { "name": "neighborhoods", "flatten": false },
     { "name": "numEmployeesMin" },
