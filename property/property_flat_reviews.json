@@ -11,7 +11,8 @@
         { "name": "emails" },
         { "name": "licenseNumber" },
         { "name": "phones" },
-        { "name": "websites" }
+        { "name": "websites" },
+        { "name": "workEmail" }
       ]
     },
     { "name": "buildingName" },
