@@ -12,7 +12,7 @@
         { "name": "licenseNumber" },
         { "name": "phones" },
         { "name": "websites" },
-        { "name": "workEmail" },
+        { "name": "workEmail" }
       ]
     },
     { "name": "buildingName" },
