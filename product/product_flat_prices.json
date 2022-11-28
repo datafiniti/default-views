@@ -5,6 +5,7 @@
     { "name": "asins", "flatten": false },
     { "name": "apiURLs", "flatten": false },
     { "name": "brand" },
+    { "name": "canonicalBrand" },
     { "name": "categories", "flatten": false },
     { "name": "colors", "flatten": false },
     { "name": "count" },
