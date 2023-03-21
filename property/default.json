@@ -131,6 +131,37 @@
       ]
     },
     { "name": "taxID" },
-    { "name": "yearBuilt" }
+    { "name": "yearBuilt" },
+    { "name": "county" },
+    { "name": "countyFIPS"},
+    { "name": "subdivision"},
+    { "name": "congressionalDistrictHouse"},
+    { "name": "legalDescription"},
+    { "name": "legalRange"},
+    { "name": "currentOwnerType"},
+    { "name": "instrumentNumber"},
+    { "name": "transactions", "flatten": false, "sub_fields": [
+      { "name": "saleDate" },
+      { "name": "firstDateSeen" },
+      { "name": "lastDateSeen" },
+      { "name": "documentType" },
+      { "name": "price" },
+      { "name": "sellerFirstName" },
+      { "name": "sellerMiddleName" },
+      { "name": "sellerLastName" },
+      { "name": "buyerFirstName" },
+      { "name": "buyerMiddleName" },
+      { "name": "buyerLastName" },
+      { "name": "lenderName" },
+      { "name": "loanType" },
+      { "name": "loanAmount" },
+      { "name": "mortgageTerm" },
+      { "name": "interestType" },
+      { "name": "parcelNumber" },
+      { "name": "ownerType" },
+      { "name": "contactOwnerMailAddressFull" }
+    ]
+  }
+
   ]
 }
