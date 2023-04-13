@@ -17,7 +17,11 @@
     },
     { "name": "buildingName" },
     { "name": "city" },
+    { "name": "congressionalDistrictHouse"},
     { "name": "country" },
+    { "name": "county" },
+    { "name": "countyFIPS"},
+    { "name": "currentOwnerType"},
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
     { "name": "deposits", "flatten": false, "sub_fields": [
@@ -43,6 +47,7 @@
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
+    { "name": "instrumentNumber"},
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
     { "name": "leasingTerms", "flatten": false, "sub_fields": [
@@ -50,6 +55,8 @@
         { "name": "value" }
       ]
     },
+    { "name": "legalDescription"},
+    { "name": "legalRange"},
     { "name": "listingName" },
     { "name": "longitude" },
     { "name": "lotSizeValue" },
@@ -121,6 +128,7 @@
       ]
     },
     { "name": "rules", "flatten": false },
+    { "name": "subdivision"},
     { "name": "statuses", "flatten": false, "sub_fields": [
         { "name": "date" },
         { "name": "dateSeen" },
@@ -133,15 +141,6 @@
     { "name": "taxID" },
     { "name": "yearBuilt" },
     { "name": "taxID" },
-    { "name": "yearBuilt" },
-    { "name": "county" },
-    { "name": "countyFIPS"},
-    { "name": "subdivision"},
-    { "name": "congressionalDistrictHouse"},
-    { "name": "legalDescription"},
-    { "name": "legalRange"},
-    { "name": "currentOwnerType"},
-    { "name": "instrumentNumber"},
     { "name": "transactions", "flatten": false, "sub_fields": [
       { "name": "saleDate" },
       { "name": "firstDateSeen" },
@@ -163,6 +162,7 @@
       { "name": "ownerType" },
       { "name": "contactOwnerMailAddressFull" }
     ]
-  }
+   },
+    { "name": "yearBuilt" }
   ]
 }
