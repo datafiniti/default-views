@@ -53,6 +53,7 @@
     {"name": "firstName"},
     {"name": "gender"},
     {"name": "githubURL"},
+    {"name": "industries", "flatten": false},  
     {"name": "interests", "flatten": false},
     {"name": "jobFunction"},
     {"name": "jobLevel"},
