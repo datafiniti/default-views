@@ -65,6 +65,11 @@
     {"name": "latitude"},
     {"name": "longitude"},
     {"name": "linkedinURL"},
+    {"name": "licenses", "flatten": false, "sub_fields": [
+        { "name": "type"},
+        { "name": "value" }
+      ]
+    },
     {"name": "middleName"},
     {"name": "mobilePhone"},
     {"name": "naics"},
