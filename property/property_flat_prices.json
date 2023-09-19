@@ -4,6 +4,16 @@
   "fields": [
     { "name": "apiURLs", "flatten": false },
     { "name": "address" },
+    { "name": "apiURLs", "flatten": false },
+    { "name": "appliances", "flatten": false },
+    { "name": "architecturalStyles", "flatten": false },
+    { "name": "assessedValues", "flatten": false, "sub_fields": [
+        { "name": "year" },
+        { "name": "totalAmount" },
+        { "name": "landAmount" },
+        { "name": "improvementsAmount" }
+      ]
+    },
     { "name": "brokers", "flatten": false, "sub_fields": [
         { "name": "agent" },
         { "name": "company" },
@@ -17,7 +27,13 @@
       ]
     },
     { "name": "buildingName" },
+    { "name": "categories" },
+    { "name": "censusBlock" },
+    { "name": "censusBlockGroup" },
+    { "name": "censusTract" },
     { "name": "city" },
+    { "name": "civilDivisionCode" },
+    { "name": "civilDivisionName" },
     { "name": "congressionalDistrictHouse"},
     { "name": "country" },
     { "name": "county" },
@@ -36,6 +52,7 @@
         { "name": "value" }
       ]
     },
+    { "name": "exteriorFeatures", "flatten": false },
     { "name": "features", "flatten": false },
     { "name": "fees", "flatten": false, "sub_fields": [
         { "name": "amountMax" },
@@ -48,6 +65,8 @@
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
+    { "name": "geoQuality"},
+    { "name": "hvacTypes"},
     { "name": "instrumentNumber"},
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
@@ -80,9 +99,17 @@
     {"name": "numBathroom", "flatten": false },
     {"name": "numBedroom", "flatten": false },
     {"name": "numFloor", "flatten": false },
+    { "name": "numParkingSpaces" },
     {"name": "numPeople", "flatten": false },
     {"name": "numRoom", "flatten": false },
     {"name": "numUnit", "flatten": false },
+    { "name": "ownerOccupied" },
+    { "name": "parcelNumbers", "flatten": false, "sub_fields": [
+        { "name": "number" },
+        { "name": "account" },
+        { "name": "year" }
+      ]
+    },
     {"name": "parking", "flatten": false },
     {"name": "paymentTypes", "flatten": false },
     {"name": "people", "flatten": false },
@@ -99,6 +126,7 @@
         { "name": "dateSeen" },
         { "name": "dateValidStart" },
         { "name": "dateValidEnd" },
+        { "name": "estimate" },
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
@@ -128,6 +156,7 @@
         { "name": "userProvince" }
       ]
     },
+    { "name": "roofing", "flatten": false },
     { "name": "rules", "flatten": false },
     { "name": "subdivision"},
     { "name": "statuses", "flatten": false, "sub_fields": [
@@ -139,13 +168,17 @@
         { "name": "type" }
       ]
     },
+    { "name": "taxExemptions" },
     { "name": "taxID" },
     { "name": "yearBuilt" },
     { "name": "taxID" },
+    { "name": "title" },
+    { "name": "topographyCode" },
     { "name": "transactions", "flatten": false, "sub_fields": [
       { "name": "saleDate" },
       { "name": "firstDateSeen" },
       { "name": "lastDateSeen" },
+      { "name": "documentNumber" },
       { "name": "documentType" },
       { "name": "price" },
       { "name": "sellerFirstName" },
@@ -164,6 +197,8 @@
       { "name": "contactOwnerMailAddressFull" }
     ]
    },
-    { "name": "yearBuilt" }
+    { "name": "trustDescription" },
+    { "name": "yearBuilt" },
+    { "name": "zoning" }
   ]
 }
