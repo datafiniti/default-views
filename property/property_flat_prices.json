@@ -96,6 +96,8 @@
     { "name": "mostRecentStatus", "flatten": false },
     { "name": "mostRecentStatusDate"},
     { "name": "mostRecentStatusFirstDateSeen"},
+    { "name": "mlsName" },
+    { "name": "mlsID" },
     { "name": "mlsNumber", "flatten": false },
     { "name": "msaName" },
     { "name": "msaCode" },
