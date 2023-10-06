@@ -53,6 +53,23 @@
         { "name": "value" }
       ]
     },
+        { "name": "estimates", "flatten": false, "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "availability" },
+        { "name": "comment" },
+        { "name": "currency" },
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "dateValidStart" },
+        { "name": "dateValidEnd" },
+        { "name": "isSale" },
+        { "name": "isSold" },
+        { "name": "minStay" },
+        { "name": "period" },
+        { "name": "pricePerSquareFoot" }
+      ]
+    },
     { "name": "exteriorFeatures", "flatten": false },
     { "name": "features", "flatten": false },
     { "name": "fees", "flatten": false, "sub_fields": [
@@ -130,7 +147,6 @@
         { "name": "dateSeen" },
         { "name": "dateValidStart" },
         { "name": "dateValidEnd" },
-        { "name": "estimate" },
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
