@@ -100,6 +100,7 @@
     { "name": "longitude" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
+    
     { "name": "managedBy", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
         { "name": "value" }
@@ -126,7 +127,13 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
-    { "name": "ownerOccupied" },
+    { "name": "ownerOccupied", "flatten": false, "sub_fields": [
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" }
+      ]
+    },
     { "name": "parcelNumbers", "flatten": false, "sub_fields": [
         { "name": "number" },
         { "name": "account" },
