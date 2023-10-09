@@ -54,7 +54,7 @@
         { "name": "value" }
       ]
     },
-        { "name": "estimates", "flatten": false, "sub_fields": [
+    { "name": "estimatedPrices", "flatten": false, "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "availability" },
@@ -126,7 +126,7 @@
     { "name": "numPeople", "flatten": false },
     { "name": "numRoom", "flatten": false },
     { "name": "numUnit", "flatten": false },
-    { "name": "ownerOccupied", "flatten": false, "sub_fields": [
+    { "name": "ownerOccupiedStatus", "flatten": false, "sub_fields": [
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
         { "name": "startDate" },
