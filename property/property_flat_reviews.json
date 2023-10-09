@@ -124,7 +124,13 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
-    { "name": "ownerOccupied" },
+    { "name": "ownerOccupied", "flatten": false, "sub_fields": [
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" }
+      ]
+    },
     { "name": "parcelNumbers", "flatten": false, "sub_fields": [
         { "name": "number" },
         { "name": "account" },
