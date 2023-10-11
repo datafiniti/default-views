@@ -127,6 +127,7 @@
     { "name": "numRoom", "flatten": false },
     { "name": "numUnit", "flatten": false },
     { "name": "ownerOccupiedStatus", "flatten": false, "sub_fields": [
+        { "name": "status" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
         { "name": "startDate" },
