@@ -105,6 +105,11 @@
         { "name": "value" }
       ]
     },
+    { "name": "mostRecentBrokerAgent" },
+    { "name": "mostRecentBrokerCompany" },
+    { "name": "mostRecentBrokerEmails" },
+    { "name": "mostRecentBrokerPhones" },
+    { "name": "mostRecentBrokerDateSeen" },
     { "name": "mostRecentPriceAmount" },
     { "name": "mostRecentPriceDomain" },
     { "name": "mostRecentPriceSourceURL" },
