@@ -27,7 +27,7 @@
       ]
     },
     { "name": "buildingName" },
-    { "name": "categories" },
+    { "name": "categories", "flatten": false },
     { "name": "cbsaName" },
     { "name": "cbsaCode" },
     { "name": "censusBlock" },
@@ -85,7 +85,7 @@
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
     { "name": "geoQuality"},
-    { "name": "hvacTypes"},
+    { "name": "hvacTypes", "flatten": false},
     { "name": "instrumentNumber"},
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
@@ -202,7 +202,7 @@
         { "name": "type" }
       ]
     },
-    { "name": "taxExemptions" },
+    { "name": "taxExemptions", "flatten": false },
     { "name": "taxID" },
     { "name": "yearBuilt" },
     { "name": "taxID" },
