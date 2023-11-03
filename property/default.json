@@ -63,11 +63,15 @@
         { "name": "dateSeen" },
         { "name": "dateValidStart" },
         { "name": "dateValidEnd" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "domain"},
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
-        { "name": "pricePerSquareFoot" }
+        { "name": "pricePerSquareFoot" },
+        { "name": "status"}
       ]
     },
     { "name": "exteriorFeatures", "flatten": false },
@@ -148,9 +152,11 @@
       ]
     },
     { "name": "parking", "flatten": false },
+    { "name": "parkingTypes", "flatten": false },
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false },
     { "name": "petPolicy" },
+    { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode" },
     { "name": "prices", "flatten": false, "sub_fields": [
@@ -163,11 +169,15 @@
         { "name": "dateSeen" },
         { "name": "dateValidStart" },
         { "name": "dateValidEnd" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "domain"},
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
-        { "name": "pricePerSquareFoot" }
+        { "name": "pricePerSquareFoot" },
+        { "name": "status"}
       ]
     },
     { "name": "propertyTaxes", "flatten": false, "sub_fields": [
