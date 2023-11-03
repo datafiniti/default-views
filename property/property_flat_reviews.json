@@ -86,6 +86,7 @@
     { "name": "geoQuality"},
     { "name": "hvacTypes", "flatten": false},
     { "name": "instrumentNumber"},
+    { "name": "isUnit"},
     { "name": "latitude" },
     { "name": "leasingTerms", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
