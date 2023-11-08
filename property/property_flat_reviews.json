@@ -84,6 +84,15 @@
         { "name": "type" }
       ]
     },
+    { "name": "floorPlans", "flatten": false, "sub_fields": [
+        { "name": "name" },
+        { "name": "type" },
+        { "name": "numBathrooms" },
+        { "name": "numBedrooms" },
+        { "name": "floorSize" },
+        { "name": "rent" }
+      ]
+    },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
