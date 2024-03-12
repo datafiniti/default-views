@@ -74,6 +74,7 @@
         { "name": "status"}
       ]
     },
+    { "name": "exteriorConstruction", "flatten": false },
     { "name": "exteriorFeatures", "flatten": false },
     { "name": "features", "flatten": false },
     { "name": "fees", "flatten": false, "sub_fields": [
