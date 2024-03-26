@@ -11,6 +11,7 @@
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
     { "name": "imageURLs", "flatten": false  },
+    { "name": "keys", "flatten": false  },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
     { "name": "mostRecentBrokerAgent" },
