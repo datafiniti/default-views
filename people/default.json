@@ -86,7 +86,7 @@
         { "name": "tested" },
         { "name": "reachable" },
         { "name": "bdscore" },
-        { "name": "lastDateSeen" },`
+        { "name": "lastDateSeen" }
       ]
     },
     {"name": "primaryEmail"},
