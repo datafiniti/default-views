@@ -100,4 +100,5 @@
     {"name": "sourceURLs",  "flatten": false},
     {"name": "twitterURL"},
     {"name": "websites",  "flatten": false}
+  ]
 }
