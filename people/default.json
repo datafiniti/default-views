@@ -11,6 +11,8 @@
     {"name": "country"},
     {"name": "dateAdded"},
     {"name": "dateUpdated"},
+    {"name": "deceased"},
+    {"name": "dateOfDeath"},
     {"name": "domains", "flatten": false},
     { "name": "education", "flatten": false, "sub_fields": [
         { "name": "startDate"},
@@ -77,6 +79,16 @@
     {"name": "numEmployeesMax"},
     {"name": "phones",  "flatten": false},
     {"name": "personalEmails", "flatten": false},
+    { "name": "phoneNumbers", "flatten": false, "sub_fields": [
+        { "name": "number"},
+        { "name": "carrier" },
+        { "name": "type" },
+        { "name": "tested" },
+        { "name": "reachable" },
+        { "name": "bdscore" },
+        { "name": "lastDateSeen" },`
+      ]
+    },
     {"name": "primaryEmail"},
     {"name": "professionalEmails", "flatten": false},
     {"name": "postalCode"},
