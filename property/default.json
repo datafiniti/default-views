@@ -2,6 +2,12 @@
   "name": "default",
   "data_type": "property",
   "fields": [
+    { "name": "absenteeOwner", "flatten": false, "sub_fields": [
+        { "name": "absent" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" }
+      ]
+    },
     { "name": "address" },
     { "name": "apiURLs", "flatten": false },
     { "name": "appliances", "flatten": false },
@@ -100,6 +106,13 @@
     { "name": "geoQuality"},
     { "name": "hvacTypes", "flatten": false},
     { "name": "instrumentNumber"},
+    { "name": "involuntaryLienJudgment", "flatten": false, "sub_fields": [
+        { "name": "judgement" },
+        { "name": "lien" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" }
+      ]
+    },
     { "name": "isUnit"},
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
@@ -134,6 +147,13 @@
     { "name": "mostRecentStatus" },
     { "name": "mostRecentStatusDate" },
     { "name": "mostRecentStatusFirstDateSeen" },
+    { "name": "mostRecentVacancy" },
+    { "name": "mostRecentVacancyFirstDateSeen" },
+    { "name": "mostRecentAbsenteeOwner" },
+    { "name": "mostRecentAbsenteeOwnerFirstDateSeen" },
+    { "name": "mostRecentInvoluntaryJudgement" },
+    { "name": "mostRecentInvoluntaryLien" },
+    { "name": "mostRecentInvoluntaryLienJudgementFirstDateSeen" },
     { "name": "mlsName" },
     { "name": "mlsID" },
     { "name": "mlsNumber" },
@@ -164,7 +184,18 @@
     { "name": "parking", "flatten": false },
     { "name": "parkingTypes", "flatten": false },
     { "name": "paymentTypes", "flatten": false },
-    { "name": "people", "flatten": false },
+    { "name": "people", "flatten": false, "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "email" },
+        { "name": "equity" },
+        { "name": "equityPercent" },
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "phone" },
+        { "name": "title" },
+        { "name": "people_id" }
+      ]
+    },
     { "name": "petPolicy" },
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
@@ -252,6 +283,12 @@
     ]
    },
     { "name": "trustDescription" },
+    { "name": "vacancy", "flatten": false, "sub_fields": [
+        { "name": "vacant" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" }
+      ]
+    },
     { "name": "yearBuilt" },
     { "name": "zoning" }
   ]
