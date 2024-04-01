@@ -12,6 +12,8 @@
     { "name": "floorSizeUnit" },
     { "name": "imageURLs", "flatten": false  },
     { "name": "keys", "flatten": false  },
+    { "name": "latitude" },
+    { "name": "longitude" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
     { "name": "mostRecentBrokerAgent" },
