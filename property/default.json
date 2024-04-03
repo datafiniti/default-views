@@ -106,7 +106,7 @@
     { "name": "geoQuality"},
     { "name": "hvacTypes", "flatten": false},
     { "name": "instrumentNumber"},
-    { "name": "involuntaryLienJudgment", "flatten": false, "sub_fields": [
+    { "name": "involuntaryLienJudgement", "flatten": false, "sub_fields": [
         { "name": "judgement" },
         { "name": "lien" },
         { "name": "firstDateSeen" },
