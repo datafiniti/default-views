@@ -84,7 +84,7 @@
         { "name": "carrier" },
         { "name": "type" },
         { "name": "tested" },
-        { "name": "reachable" },
+        { "name": "reachableStatus" },
         { "name": "bdscore" },
         { "name": "lastDateSeen" }
       ]
