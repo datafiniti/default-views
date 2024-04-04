@@ -188,6 +188,7 @@
         { "name": "dateSeen" },
         { "name": "equity" },
         { "name": "equityPercent" },
+        { "name": "name" },
         { "name": "firstName" },
         { "name": "lastName" },
         { "name": "title" },
