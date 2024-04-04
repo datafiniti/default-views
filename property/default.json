@@ -186,14 +186,12 @@
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
-        { "name": "email" },
         { "name": "equity" },
         { "name": "equityPercent" },
         { "name": "firstName" },
         { "name": "lastName" },
-        { "name": "phone" },
         { "name": "title" },
-        { "name": "people_id" }
+        { "name": "people_key" }
       ]
     },
     { "name": "petPolicy" },
