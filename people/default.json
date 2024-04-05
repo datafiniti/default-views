@@ -79,6 +79,10 @@
     {"name": "numEmployeesMax"},
     {"name": "phones",  "flatten": false},
     {"name": "personalEmails", "flatten": false},
+    {"name": "phoneNumberHighScoreMobile"},
+    {"name": "phoneNumberHighScoreMobileScore"},
+    {"name": "phoneNumberHighScoreLand"},
+    {"name": "phoneNumberHighScoreLandScore"},
     { "name": "phoneNumbers", "flatten": false, "sub_fields": [
         { "name": "number"},
         { "name": "carrier" },
