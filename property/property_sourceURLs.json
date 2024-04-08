@@ -1,0 +1,524 @@
+{
+    "name": "property_sourceURLs",
+    "data_type": "property",
+    "fields": [
+        {
+            "flatten": false,
+            "name": "address"
+        },
+        {
+            "flatten": false,
+            "name": "apiURLs"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "agent"
+                },
+                {
+                    "name": "company"
+                },
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "emails"
+                },
+                {
+                    "name": "licenseNumber"
+                },
+                {
+                    "name": "phones"
+                },
+                {
+                    "name": "websites"
+                },
+                {
+                    "name": "workEmail"
+                }
+            ],
+            "name": "brokers"
+        },
+        {
+            "flatten": false,
+            "name": "buildingName"
+        },
+        {
+            "flatten": false,
+            "name": "city"
+        },
+        {
+            "flatten": false,
+            "name": "congressionalDistrictHouse"
+        },
+        {
+            "flatten": false,
+            "name": "country"
+        },
+        {
+            "flatten": false,
+            "name": "county"
+        },
+        {
+            "flatten": false,
+            "name": "countyFIPS"
+        },
+        {
+            "flatten": false,
+            "name": "currentOwnerType"
+        },
+        {
+            "flatten": false,
+            "name": "dateAdded"
+        },
+        {
+            "flatten": false,
+            "name": "dateUpdated"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "amount"
+                },
+                {
+                    "name": "currency"
+                },
+                {
+                    "name": "dateSeen"
+                }
+            ],
+            "name": "deposits"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "value"
+                }
+            ],
+            "name": "descriptions"
+        },
+        {
+            "flatten": false,
+            "name": "domains"
+        },
+        {
+            "flatten": false,
+            "name": "features"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "amountMax"
+                },
+                {
+                    "name": "amountMin"
+                },
+                {
+                    "name": "currency"
+                },
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            "name": "fees"
+        },
+        {
+            "flatten": false,
+            "name": "floorSizeValue"
+        },
+        {
+            "flatten": false,
+            "name": "floorSizeUnit"
+        },
+        {
+            "flatten": false,
+            "name": "geoLocation"
+        },
+        {
+            "flatten": false,
+            "name": "imageURLs"
+        },
+        {
+            "flatten": false,
+            "name": "instrumentNumber"
+        },
+        {
+            "flatten": false,
+            "name": "keys"
+        },
+        {
+            "flatten": false,
+            "name": "languagesSpoken"
+        },
+        {
+            "flatten": false,
+            "name": "latitude"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "value"
+                }
+            ],
+            "name": "leasingTerms"
+        },
+        {
+            "flatten": false,
+            "name": "legalDescription"
+        },
+        {
+            "flatten": false,
+            "name": "legalRange"
+        },
+        {
+            "flatten": false,
+            "name": "listingName"
+        },
+        {
+            "flatten": false,
+            "name": "longitude"
+        },
+        {
+            "flatten": false,
+            "name": "lotSizeValue"
+        },
+        {
+            "flatten": false,
+            "name": "lotSizeUnit"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "value"
+                }
+            ],
+            "name": "managedBy"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentPriceAmount"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentPriceDomain"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentPriceSourceURL"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentPriceDate"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentPriceFirstDateSeen"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentStatus"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentStatusDate"
+        },
+        {
+            "flatten": false,
+            "name": "mostRecentStatusFirstDateSeen"
+        },
+        {
+            "flatten": false,
+            "name": "mlsNumber"
+        },
+        {
+            "flatten": false,
+            "name": "neighborhoods"
+        },
+        {
+            "flatten": false,
+            "name": "numBathroom"
+        },
+        {
+            "flatten": false,
+            "name": "numBedroom"
+        },
+        {
+            "flatten": false,
+            "name": "numFloor"
+        },
+        {
+            "flatten": false,
+            "name": "numPeople"
+        },
+        {
+            "flatten": false,
+            "name": "numRoom"
+        },
+        {
+            "flatten": false,
+            "name": "numUnit"
+        },
+        {
+            "flatten": false,
+            "name": "parking"
+        },
+        {
+            "flatten": false,
+            "name": "paymentTypes"
+        },
+        {
+            "flatten": false,
+            "name": "people"
+        },
+        {
+            "flatten": false,
+            "name": "petPolicy"
+        },
+        {
+            "flatten": false,
+            "name": "phones"
+        },
+        {
+            "flatten": false,
+            "name": "postalCode"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "amountMax"
+                },
+                {
+                    "name": "amountMin"
+                },
+                {
+                    "name": "availability"
+                },
+                {
+                    "name": "comment"
+                },
+                {
+                    "name": "currency"
+                },
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "dateValidStart"
+                },
+                {
+                    "name": "dateValidEnd"
+                },
+                {
+                    "name": "isSale"
+                },
+                {
+                    "name": "isSold"
+                },
+                {
+                    "name": "minStay"
+                },
+                {
+                    "name": "period"
+                },
+                {
+                    "name": "pricePerSquareFoot"
+                }
+            ],
+            "name": "prices"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "amount"
+                },
+                {
+                    "name": "currency"
+                },
+                {
+                    "name": "dateSeen"
+                }
+            ],
+            "name": "propertyTaxes"
+        },
+        {
+            "flatten": false,
+            "name": "propertyType"
+        },
+        {
+            "flatten": false,
+            "name": "province"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "didPurchase"
+                },
+                {
+                    "name": "doRecommend"
+                },
+                {
+                    "name": "numHelpful"
+                },
+                {
+                    "name": "rating"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "name": "sourceURLs"
+                },
+                {
+                    "name": "title"
+                },
+                {
+                    "name": "userCity"
+                },
+                {
+                    "name": "username"
+                },
+                {
+                    "name": "userProvince"
+                }
+            ],
+            "name": "reviews"
+        },
+        {
+            "flatten": false,
+            "name": "rules"
+        },
+        {
+            "flatten": false,
+            "name": "subdivision"
+        },
+        {
+            "flatten": false,
+            "name": "sourceURLs"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "dateSeen"
+                },
+                {
+                    "name": "firstDateSeen"
+                },
+                {
+                    "name": "lastDateSeen"
+                },
+                {
+                    "name": "isUnderContract"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            "name": "statuses"
+        },
+        {
+            "flatten": false,
+            "name": "taxID"
+        },
+        {
+            "flatten": false,
+            "sub_fields": [
+                {
+                    "name": "saleDate"
+                },
+                {
+                    "name": "firstDateSeen"
+                },
+                {
+                    "name": "lastDateSeen"
+                },
+                {
+                    "name": "documentType"
+                },
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "sellerFirstName"
+                },
+                {
+                    "name": "sellerMiddleName"
+                },
+                {
+                    "name": "sellerLastName"
+                },
+                {
+                    "name": "buyerFirstName"
+                },
+                {
+                    "name": "buyerMiddleName"
+                },
+                {
+                    "name": "buyerLastName"
+                },
+                {
+                    "name": "lenderName"
+                },
+                {
+                    "name": "loanType"
+                },
+                {
+                    "name": "loanAmount"
+                },
+                {
+                    "name": "mortgageTerm"
+                },
+                {
+                    "name": "interestType"
+                },
+                {
+                    "name": "parcelNumber"
+                },
+                {
+                    "name": "ownerType"
+                },
+                {
+                    "name": "contactOwnerMailAddressFull"
+                }
+            ],
+            "name": "transactions"
+        },
+        {
+            "flatten": false,
+            "name": "yearBuilt"
+        }
+    ]
+}
