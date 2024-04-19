@@ -232,6 +232,11 @@
             "flatten": false,
             "name": "mostRecentPriceFirstDateSeen"
         },
+        { "name": "mostRecentEstimatedPriceAmount" },
+        { "name": "mostRecentEstimatedPriceDomain" },
+        { "name": "mostRecentEstimatedPriceSourceURL" },
+        { "name": "mostRecentEstimatedPriceDate" },
+        { "name": "mostRecentEstimatedPriceFirstDateSeen" },
         {
             "flatten": false,
             "name": "mostRecentStatus"
