@@ -232,23 +232,31 @@
             "flatten": false,
             "name": "mostRecentPriceFirstDateSeen"
         },
-        { "name": "mostRecentEstimatedPriceAmount" },
-        { "name": "mostRecentEstimatedPriceDomain" },
-        { "name": "mostRecentEstimatedPriceSourceURL" },
-        { "name": "mostRecentEstimatedPriceDate" },
-        { "name": "mostRecentEstimatedPriceFirstDateSeen" },
-        {
-            "flatten": false,
-            "name": "mostRecentStatus"
-        },
-        {
-            "flatten": false,
-            "name": "mostRecentStatusDate"
-        },
-        {
-            "flatten": false,
-            "name": "mostRecentStatusFirstDateSeen"
-        },
+    { "name": "mostRecentBrokerAgent" },
+    { "name": "mostRecentBrokerCompany" },
+    { "name": "mostRecentBrokerEmails", "flatten": false  },
+    { "name": "mostRecentBrokerPhones", "flatten": false  },
+    { "name": "mostRecentBrokerDateSeen" },
+    { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentPriceDomain" },
+    { "name": "mostRecentPriceSourceURL" },
+    { "name": "mostRecentPriceDate" },
+    { "name": "mostRecentPriceFirstDateSeen" },
+    { "name": "mostRecentEstimatedPriceAmount" },
+    { "name": "mostRecentEstimatedPriceDomain" },
+    { "name": "mostRecentEstimatedPriceSourceURL" },
+    { "name": "mostRecentEstimatedPriceDate" },
+    { "name": "mostRecentEstimatedPriceFirstDateSeen" },
+    { "name": "mostRecentStatus" },
+    { "name": "mostRecentStatusDate" },
+    { "name": "mostRecentStatusFirstDateSeen" },
+    { "name": "mostRecentVacancy" },
+    { "name": "mostRecentVacancyFirstDateSeen" },
+    { "name": "mostRecentAbsenteeOwner" },
+    { "name": "mostRecentAbsenteeOwnerFirstDateSeen" },
+    { "name": "mostRecentInvoluntaryJudgement" },
+    { "name": "mostRecentInvoluntaryLien" },
+    { "name": "mostRecentInvoluntaryLienJudgementFirstDateSeen" },
         {
             "flatten": false,
             "name": "mlsNumber"
