@@ -10,6 +10,13 @@
             "flatten": false,
             "name": "apiURLs"
         },
+        { "name": "assessedValues", "flatten": false, "sub_fields": [
+            { "name": "year" },
+            { "name": "totalAmount" },
+            { "name": "landAmount" },
+            { "name": "improvementsAmount" }
+          ]
+        },
         {
             "flatten": false,
             "sub_fields": [
