@@ -250,6 +250,7 @@
     { "name": "mostRecentPriceDate" },
     { "name": "mostRecentPriceFirstDateSeen" },
     { "name": "mostRecentRentalPriceAmount" },
+    { "name": "mostRecentRentalPricePeriod" },
     { "name": "mostRecentRentalPriceDomain" },
     { "name": "mostRecentRentalPriceSourceURL" },
     { "name": "mostRecentRentalPriceDate" },
