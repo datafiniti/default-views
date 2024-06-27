@@ -19,6 +19,7 @@
     { "name": "mostRecentBrokerAgent" },
     { "name": "mostRecentBrokerCompany" },
     { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentRentalPriceAmount" },
     { "name": "mostRecentStatus" },
     { "name": "mlsName" },
     { "name": "mlsID" },
