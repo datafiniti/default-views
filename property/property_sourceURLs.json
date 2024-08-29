@@ -114,6 +114,27 @@
             "flatten": false,
             "name": "domains"
         },
+        { "name": "estimatedPrices", "flatten": false, "sub_fields": [
+            { "name": "amountMax" },
+            { "name": "amountMin" },
+            { "name": "availability" },
+            { "name": "comment" },
+            { "name": "currency" },
+            { "name": "date" },
+            { "name": "dateSeen" },
+            { "name": "dateValidStart" },
+            { "name": "dateValidEnd" },
+            { "name": "firstDateSeen" },
+            { "name": "lastDateSeen" },
+            { "name": "domains"},
+            { "name": "isSale" },
+            { "name": "isSold" },
+            { "name": "minStay" },
+            { "name": "period" },
+            { "name": "pricePerSquareFoot" },
+            { "name": "status"}
+          ]
+        },
         {
             "flatten": false,
             "name": "features"
