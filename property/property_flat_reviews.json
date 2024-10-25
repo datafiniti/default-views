@@ -21,6 +21,7 @@
         { "name": "licenseType" },
         { "name": "licenseNumber" },
         { "name": "phones" },
+        { "name": "role" },
         { "name": "websites" },
         { "name": "workEmail" }
       ]
@@ -201,6 +202,8 @@
     { "name": "propertyTaxes", "flatten": false, "sub_fields": [
         { "name": "amount" },
         { "name": "currency" },
+        { "name": "year" },
+        { "name": "rate" },
         { "name": "dateSeen" }
       ]
     },
