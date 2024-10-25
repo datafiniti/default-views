@@ -38,6 +38,7 @@
                 {
                     "name": "phones"
                 },
+                { "name": "role" },
                 {
                     "name": "websites"
                 },
@@ -404,6 +405,8 @@
                 {
                     "name": "currency"
                 },
+                { "name": "year" },
+                { "name": "rate" },
                 {
                     "name": "dateSeen"
                 }
