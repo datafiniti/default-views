@@ -44,6 +44,8 @@
     { "name": "civilDivisionName" },    
     { "name": "companies", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
         { "name": "equity" },
         { "name": "equityPercent" },
         { "name": "landline" },
@@ -207,6 +209,8 @@
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
         { "name": "equity" },
         { "name": "equityPercent" },
         { "name": "landline" },
