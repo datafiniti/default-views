@@ -38,6 +38,8 @@
     { "name": "civilDivisionName" },
     { "name": "companies", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
         { "name": "equity" },
         { "name": "equityPercent" },
         { "name": "landline" },
