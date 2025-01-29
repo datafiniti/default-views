@@ -95,6 +95,7 @@
     {"name": "professionalEmails", "flatten": false},
     {"name": "postalCode"},
     {"name": "province"},
+    {"name": "propertyKeys", "flatten": false},
     {"name": "revenueCurrency"},
     {"name": "revenueMax"},
     {"name": "revenueMin"},
