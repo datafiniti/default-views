@@ -1,0 +1,41 @@
+{
+  "name": "people_preview",
+  "data_type": "people",
+  "fields": [
+    {
+      "name": "jobTitle"
+    },
+    {
+      "name": "country"
+    },
+    {
+      "name": "address"
+    },
+    {
+      "name": "businessCategories",
+      "flatten": false
+    },
+    {
+      "name": "licenses",
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "type"
+        },
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "name": "sourceURLs",
+      "flatten": false
+    },
+    {
+      "name": "linkedinURL"
+    },
+    {
+      "name": "businessName"
+    }
+  ]
+}
