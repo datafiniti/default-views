@@ -1,0 +1,15 @@
+{
+  "name": "business_preview",
+  "data_type": "business",
+  "fields": [
+    { "name": "country" },
+    { "name": "address" },
+    { "name": "categories", "flatten": false },
+    { "name": "name" },
+    { "name": "primaryCategories", "flatten": false },
+    { "name": "emails", "flatten": false },
+    { "name": "phones", "flatten": false },
+    { "name": "reviews", "flatten": false },
+    { "name": "geoLocation"}
+  ]
+}
