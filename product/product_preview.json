@@ -1,0 +1,61 @@
+{
+  "name": "product_preview",
+  "data_type": "product",
+  "fields": [
+    {
+      "name": "brand"
+    },
+    {
+      "name": "manufacturer"
+    },
+    {
+      "name": "asins",
+      "flatten": false
+    },
+    {
+      "name": "domains",
+      "flatten": false
+    },
+    {
+      "name": "mostRecentPriceAmount"
+    },
+    {
+      "name": "taxonomyLevel1",
+      "flatten": false
+    },
+    {
+      "name": "mostRecentPriceIsSale"
+    },
+    {
+      "name": "taxonomy",
+      "flatten": false
+    },
+    {
+      "name": "categories",
+      "flatten": false
+    },
+    {
+      "name": "descriptions",
+      "flatten": false
+    },
+    {
+      "name": "reviews",
+      "flatten": false
+    },
+    {
+      "name": "prices",
+      "flatten": false
+    },
+    {
+      "name": "name"
+    },
+    {
+      "name": "colors",
+      "flatten": false
+    },
+    {
+      "name": "features",
+      "flatten": false
+    }
+  ]
+}
