@@ -27,6 +27,9 @@
       "name": "mostRecentPriceIsSale"
     },
     {
+      "name": "weight"
+    },
+    {
       "name": "taxonomy",
       "flatten": false
     },
@@ -39,6 +42,9 @@
       "flatten": false
     },
     {
+      "name": "dimension"
+    },
+    {
       "name": "reviews",
       "flatten": false
     },
@@ -47,15 +53,44 @@
       "flatten": false
     },
     {
+      "name": "sizes",
+      "flatten": false
+    },
+    {
+      "name": "quantities",
+      "flatten": false
+    },
+    {
       "name": "name"
+    },
+    {
+      "name": "skus",
+      "flatten": false
     },
     {
       "name": "colors",
       "flatten": false
     },
     {
+      "name": "count"
+    },
+    {
       "name": "features",
       "flatten": false
+    },
+    {
+      "name": "gtins",
+      "flatten": false
+    },
+    {
+      "name": "imageURLs",
+      "flatten": false
+    },
+    {
+      "name": "manufacturer"
+    },
+    {
+      "name": "manufacturerNumber"
     }
   ]
 }
