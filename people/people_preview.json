@@ -3,10 +3,28 @@
   "data_type": "people",
   "fields": [
     {
-      "name": "jobTitle"
+      "name": "firstName"
+    },
+    {
+      "name": "lastName"
+    },
+    {
+      "name": "businessName"
+    },
+    {
+      "name": "city"
+    },
+    {
+      "name": "province"
+    },
+    {
+      "name": "postalCode"
     },
     {
       "name": "country"
+    },
+    {
+      "name": "jobTitle"
     },
     {
       "name": "address"
@@ -33,9 +51,6 @@
     },
     {
       "name": "linkedinURL"
-    },
-    {
-      "name": "businessName"
     }
   ]
 }
