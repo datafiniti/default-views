@@ -51,6 +51,7 @@
     },
     {
       "name": "linkedinURL"
-    }
+    },
+    { "name": "keys", "flatten": false }
   ]
 }
