@@ -3,39 +3,70 @@
   "data_type": "product",
   "fields": [
     {
-      "name": "brand"
-    },
-    {
-      "name": "manufacturer"
-    },
-    {
       "name": "asins",
       "flatten": false
     },
     {
-      "name": "domains",
-      "flatten": false
-    },
-    {
-      "name": "mostRecentPriceAmount"
-    },
-    {
-      "name": "taxonomyLevel1",
-      "flatten": false
-    },
-    {
-      "name": "mostRecentPriceIsSale"
-    },
-    {
-      "name": "taxonomy",
-      "flatten": false
+      "name": "brand"
     },
     {
       "name": "categories",
       "flatten": false
     },
     {
+      "name": "colors",
+      "flatten": false
+    },
+    {
+      "name": "count"
+    },
+    {
       "name": "descriptions",
+      "flatten": false
+    },
+    {
+      "name": "dimension"
+    },
+    {
+      "name": "domains",
+      "flatten": false
+    },
+    {
+      "name": "features",
+      "flatten": false
+    },
+    {
+      "name": "gtins",
+      "flatten": false
+    },
+    {
+      "name": "imageURLs",
+      "flatten": false
+    },
+    {
+      "name": "manufacturer"
+    },
+    {
+      "name": "manufacturer"
+    },
+    {
+      "name": "manufacturerNumber"
+    },
+    {
+      "name": "mostRecentPriceAmount"
+    },
+    {
+      "name": "mostRecentPriceIsSale"
+    },
+    {
+      "name": "name"
+    },
+    {
+      "name": "prices",
+      "flatten": false
+    },
+    {
+      "name": "quantities",
       "flatten": false
     },
     {
@@ -43,19 +74,23 @@
       "flatten": false
     },
     {
-      "name": "prices",
+      "name": "skus",
       "flatten": false
     },
     {
-      "name": "name"
-    },
-    {
-      "name": "colors",
+      "name": "sizes",
       "flatten": false
     },
     {
-      "name": "features",
+      "name": "taxonomy",
       "flatten": false
+    },
+    {
+      "name": "taxonomyLevel1",
+      "flatten": false
+    },
+    {
+      "name": "weight"
     }
   ]
 }
