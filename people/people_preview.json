@@ -52,6 +52,9 @@
     {
       "name": "linkedinURL"
     },
-    { "name": "keys", "flatten": false }
+    {
+      "name": "keys",
+      "flatten": false
+    }
   ]
 }
