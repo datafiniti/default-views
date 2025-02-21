@@ -2,14 +2,96 @@
   "name": "business_preview",
   "data_type": "business",
   "fields": [
-    { "name": "country" },
-    { "name": "address" },
-    { "name": "categories", "flatten": false },
-    { "name": "name" },
-    { "name": "primaryCategories", "flatten": false },
-    { "name": "emails", "flatten": false },
-    { "name": "phones", "flatten": false },
-    { "name": "reviews", "flatten": false },
-    { "name": "geoLocation"}
+    {
+      "name": "address"
+    },
+    {
+      "name": "categories",
+      "flatten": false
+    },
+    {
+      "name": "city"
+    },
+    {
+      "name": "country"
+    },
+    {
+      "name": "descriptions",
+      "flatten": false
+    },
+    {
+      "name": "emails",
+      "flatten": false
+    },
+    {
+      "name": "emails",
+      "flatten": false
+    },
+    {
+      "name": "features",
+      "flatten": false
+    },
+    {
+      "name": "geoLocation"
+    },
+    {
+      "name": "isClosed"
+    },
+    {
+      "name": "latitude"
+    },
+    {
+      "name": "longitude"
+    },
+    {
+      "name": "name"
+    },
+    {
+      "name": "numEmployeesMax"
+    },
+    {
+      "name": "numEmployeesMin"
+    },
+    {
+      "name": "phones",
+      "flatten": false
+    },
+    {
+      "name": "postalCode"
+    },
+    {
+      "name": "primaryCategories",
+      "flatten": false
+    },
+    {
+      "name": "province"
+    },
+    {
+      "name": "revenueMax"
+    },
+    {
+      "name": "revenueMin"
+    },
+    {
+      "name": "reviews",
+      "flatten": false
+    },
+    {
+      "name": "sic"
+    },
+    {
+      "name": "sourceURLs",
+      "flatten": false
+    },
+    {
+      "name": "websites",
+      "flatten": false
+    },
+    {
+      "name": "yearIncorporated"
+    },
+    {
+      "name": "yearOpened"
+    }
   ]
 }
