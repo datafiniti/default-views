@@ -3,10 +3,11 @@
   "data_type": "people",
   "fields": [
     {
-      "name": "firstName"
+      "name": "address"
     },
     {
-      "name": "lastName"
+      "name": "businessCategories",
+      "flatten": false
     },
     {
       "name": "businessName"
@@ -15,23 +16,24 @@
       "name": "city"
     },
     {
-      "name": "province"
-    },
-    {
-      "name": "postalCode"
-    },
-    {
       "name": "country"
+    },
+    {
+      "name": "emails",
+      "flatten": false
+    },
+    {
+      "name": "firstName"
     },
     {
       "name": "jobTitle"
     },
     {
-      "name": "address"
+      "name": "keys",
+      "flatten": false
     },
     {
-      "name": "businessCategories",
-      "flatten": false
+      "name": "lastName"
     },
     {
       "name": "licenses",
@@ -46,14 +48,58 @@
       ]
     },
     {
-      "name": "sourceURLs",
-      "flatten": false
-    },
-    {
       "name": "linkedinURL"
     },
     {
-      "name": "keys",
+      "name": "personalEmails",
+      "flatten": false
+    },
+    {
+      "name": "phones",
+      "flatten": false
+    },
+    {
+      "name": "phoneNumbers",
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "number"
+        },
+        {
+          "name": "carrier"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "tested"
+        },
+        {
+          "name": "reachableStatus"
+        },
+        {
+          "name": "bdscore"
+        },
+        {
+          "name": "lastDateSeen"
+        }
+      ]
+    },
+    {
+      "name": "primaryEmail"
+    },
+    {
+      "name": "professionalEmails",
+      "flatten": false
+    },
+    {
+      "name": "postalCode"
+    },
+    {
+      "name": "province"
+    },
+    {
+      "name": "sourceURLs",
       "flatten": false
     }
   ]
