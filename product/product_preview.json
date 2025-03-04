@@ -44,7 +44,8 @@
       "flatten": false
     },
     {
-      "name": "manufacturer"
+      "name": "keys",
+      "flatten": false
     },
     {
       "name": "manufacturer"
@@ -74,11 +75,11 @@
       "flatten": false
     },
     {
-      "name": "skus",
+      "name": "sizes",
       "flatten": false
     },
     {
-      "name": "sizes",
+      "name": "skus",
       "flatten": false
     },
     {
