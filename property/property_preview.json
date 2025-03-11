@@ -66,20 +66,7 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
-    { "name": "people", "flatten": false, "sub_fields": [
-        { "name": "dateSeen" },
-        { "name": "startDate" },
-        { "name": "endDate" },
-        { "name": "equity" },
-        { "name": "equityPercent" },
-        { "name": "landline" },
-        { "name": "name" },
-        { "name": "firstName" },
-        { "name": "lastName" },
-        { "name": "title" },
-        { "name": "people_key" }
-      ]
-    },
+    { "name": "people", "flatten": false },
     { "name": "postalCode" },
     { "name": "propertyType" },
     { "name": "province" }
