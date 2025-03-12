@@ -18,10 +18,12 @@
       { "name": "agent" },
       { "name": "company" },
       { "name": "dateSeen" },
+      { "name": "emails" },
       { "name": "firstName" },
       { "name": "lastName" },
       { "name": "licenseType" },
       { "name": "licenseNumber" },
+      { "name": "phones" },
       { "name": "people_key" },
       { "name": "role" },
       { "name": "websites" }
