@@ -15,17 +15,19 @@
       ]
     },
     { "name": "brokers", "flatten": false, "sub_fields": [
-        { "name": "agent" },
-        { "name": "company" },
-        { "name": "dateSeen" },
-        { "name": "emails" },
-        { "name": "licenseType" },
-        { "name": "licenseNumber" },
-        { "name": "phones" },
-        { "name": "role" },
-        { "name": "websites" },
-        { "name": "workEmail" }
-      ]
+      { "name": "agent" },
+      { "name": "company" },
+      { "name": "dateSeen" },
+      { "name": "emails" },
+      { "name": "firstName" },
+      { "name": "lastName" },
+      { "name": "licenseType" },
+      { "name": "licenseNumber" },
+      { "name": "phones" },
+      { "name": "people_key" },
+      { "name": "role" },
+      { "name": "websites" }
+    ]
     },
     { "name": "buildingName" },
     { "name": "categories", "flatten": false },
