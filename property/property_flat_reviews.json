@@ -6,24 +6,30 @@
     { "name": "apiURLs", "flatten": false },
     { "name": "appliances", "flatten": false },
     { "name": "architecturalStyles", "flatten": false },
-    { "name": "assessedValues", "flatten": false, "sub_fields": [
+    {
+      "name": "assessedValues",
+      "flatten": false,
+      "sub_fields": [
         { "name": "year" },
         { "name": "totalAmount" },
         { "name": "landAmount" },
         { "name": "improvementsAmount" }
       ]
     },
-    { "name": "brokers", "flatten": false, "sub_fields": [
+    {
+      "name": "brokers",
+      "flatten": false,
+      "sub_fields": [
         { "name": "agent" },
         { "name": "company" },
         { "name": "dateSeen" },
-        { "name": "emails" },
+        { "name": "firstName" },
+        { "name": "lastName" },
         { "name": "licenseType" },
         { "name": "licenseNumber" },
-        { "name": "phones" },
+        { "name": "people_key" },
         { "name": "role" },
-        { "name": "websites" },
-        { "name": "workEmail" }
+        { "name": "websites" }
       ]
     },
     { "name": "buildingName" },
@@ -36,7 +42,10 @@
     { "name": "city" },
     { "name": "civilDivisionCode" },
     { "name": "civilDivisionName" },
-    { "name": "companies", "flatten": false, "sub_fields": [
+    {
+      "name": "companies",
+      "flatten": false,
+      "sub_fields": [
         { "name": "dateSeen" },
         { "name": "startDate" },
         { "name": "endDate" },
@@ -47,25 +56,31 @@
         { "name": "title" }
       ]
     },
-    { "name": "congressionalDistrictHouse"},
+    { "name": "congressionalDistrictHouse" },
     { "name": "country" },
     { "name": "county" },
-    { "name": "countyFIPS"},
-    { "name": "currentOwnerType"},
+    { "name": "countyFIPS" },
+    { "name": "currentOwnerType" },
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
-    { "name": "deposits", "flatten": false, "sub_fields": [
+    {
+      "name": "deposits",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amount" },
         { "name": "currency" },
         { "name": "dateSeen" }
       ]
     },
-    { "name": "descriptions", "flatten": false, "sub_fields": [
-        { "name": "dateSeen" },
-        { "name": "value" }
-      ]
+    {
+      "name": "descriptions",
+      "flatten": false,
+      "sub_fields": [{ "name": "dateSeen" }, { "name": "value" }]
     },
-    { "name": "estimatedPrices", "flatten": false, "sub_fields": [
+    {
+      "name": "estimatedPrices",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "availability" },
@@ -77,19 +92,22 @@
         { "name": "dateValidEnd" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
-        { "name": "domains"},
+        { "name": "domains" },
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
         { "name": "pricePerSquareFoot" },
-        { "name": "status"}
+        { "name": "status" }
       ]
     },
     { "name": "exteriorConstruction", "flatten": false },
     { "name": "exteriorFeatures", "flatten": false },
     { "name": "features", "flatten": false },
-    { "name": "fees", "flatten": false, "sub_fields": [
+    {
+      "name": "fees",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "currency" },
@@ -97,7 +115,10 @@
         { "name": "type" }
       ]
     },
-    { "name": "floorPlans", "flatten": false, "sub_fields": [
+    {
+      "name": "floorPlans",
+      "flatten": false,
+      "sub_fields": [
         { "name": "name" },
         { "name": "type" },
         { "name": "numBathrooms" },
@@ -108,32 +129,32 @@
     },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
-    { "name": "geoLocation"},
-    { "name": "geoQuality"},
-    { "name": "hvacTypes", "flatten": false},
-    { "name": "instrumentNumber"},
-    { "name": "isUnit"},
+    { "name": "geoLocation" },
+    { "name": "geoQuality" },
+    { "name": "hvacTypes", "flatten": false },
+    { "name": "instrumentNumber" },
+    { "name": "isUnit" },
     { "name": "latitude" },
-    { "name": "leasingTerms", "flatten": false, "sub_fields": [
-        { "name": "dateSeen" },
-        { "name": "value" }
-      ]
+    {
+      "name": "leasingTerms",
+      "flatten": false,
+      "sub_fields": [{ "name": "dateSeen" }, { "name": "value" }]
     },
-    { "name": "legalDescription"},
-    { "name": "legalRange"},
+    { "name": "legalDescription" },
+    { "name": "legalRange" },
     { "name": "listingName" },
     { "name": "longitude" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
-    { "name": "managedBy", "flatten": false, "sub_fields": [
-        { "name": "dateSeen" },
-        { "name": "value" }
-      ]
+    {
+      "name": "managedBy",
+      "flatten": false,
+      "sub_fields": [{ "name": "dateSeen" }, { "name": "value" }]
     },
     { "name": "mostRecentBrokerAgent" },
     { "name": "mostRecentBrokerCompany" },
-    { "name": "mostRecentBrokerEmails", "flatten": false  },
-    { "name": "mostRecentBrokerPhones", "flatten": false  },
+    { "name": "mostRecentBrokerEmails", "flatten": false },
+    { "name": "mostRecentBrokerPhones", "flatten": false },
     { "name": "mostRecentBrokerDateSeen" },
     { "name": "mostRecentPriceAmount" },
     { "name": "mostRecentPriceDomain" },
@@ -167,7 +188,10 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
-    { "name": "ownerOccupiedStatus", "flatten": false, "sub_fields": [
+    {
+      "name": "ownerOccupiedStatus",
+      "flatten": false,
+      "sub_fields": [
         { "name": "status" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
@@ -175,7 +199,10 @@
         { "name": "endDate" }
       ]
     },
-    { "name": "parcelNumbers", "flatten": false, "sub_fields": [
+    {
+      "name": "parcelNumbers",
+      "flatten": false,
+      "sub_fields": [
         { "name": "number" },
         { "name": "account" },
         { "name": "year" }
@@ -184,12 +211,31 @@
     { "name": "parking", "flatten": false },
     { "name": "parkingTypes", "flatten": false },
     { "name": "paymentTypes", "flatten": false },
-    { "name": "people", "flatten": false },
+    {
+      "name": "people",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
+        { "name": "equity" },
+        { "name": "equityPercent" },
+        { "name": "landline" },
+        { "name": "name" },
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "title" },
+        { "name": "people_key" }
+      ]
+    },
     { "name": "petPolicy" },
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode" },
-    { "name": "prices", "flatten": false, "sub_fields": [
+    {
+      "name": "prices",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "availability" },
@@ -201,16 +247,19 @@
         { "name": "dateValidEnd" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
-        { "name": "domains"},
+        { "name": "domains" },
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
         { "name": "pricePerSquareFoot" },
-        { "name": "status"}
+        { "name": "status" }
       ]
     },
-    { "name": "propertyTaxes", "flatten": false, "sub_fields": [
+    {
+      "name": "propertyTaxes",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amount" },
         { "name": "currency" },
         { "name": "year" },
@@ -218,9 +267,12 @@
         { "name": "dateSeen" }
       ]
     },
-    {"name": "propertyType", "flatten": false },
-    {"name": "province", "flatten": false },
-    { "name": "reviews", "flatten": true, "sub_fields": [
+    { "name": "propertyType", "flatten": false },
+    { "name": "province", "flatten": false },
+    {
+      "name": "reviews",
+      "flatten": true,
+      "sub_fields": [
         { "name": "date" },
         { "name": "dateSeen" },
         { "name": "didPurchase" },
@@ -236,8 +288,11 @@
     },
     { "name": "roofing", "flatten": false },
     { "name": "rules", "flatten": false },
-    { "name": "subdivision"},
-    { "name": "statuses", "flatten": false, "sub_fields": [
+    { "name": "subdivision" },
+    {
+      "name": "statuses",
+      "flatten": false,
+      "sub_fields": [
         { "name": "date" },
         { "name": "dateSeen" },
         { "name": "firstDateSeen" },
@@ -252,29 +307,32 @@
     { "name": "taxID" },
     { "name": "title" },
     { "name": "topographyCode" },
-    { "name": "transactions", "flatten": false, "sub_fields": [
-      { "name": "saleDate" },
-      { "name": "firstDateSeen" },
-      { "name": "lastDateSeen" },
-      { "name": "documentType" },
-      { "name": "documentNumber" },
-      { "name": "price" },
-      { "name": "sellerFirstName" },
-      { "name": "sellerMiddleName" },
-      { "name": "sellerLastName" },
-      { "name": "buyerFirstName" },
-      { "name": "buyerMiddleName" },
-      { "name": "buyerLastName" },
-      { "name": "lenderName" },
-      { "name": "loanType" },
-      { "name": "loanAmount" },
-      { "name": "mortgageTerm" },
-      { "name": "interestType" },
-      { "name": "parcelNumber" },
-      { "name": "ownerType" },
-      { "name": "contactOwnerMailAddressFull" }
-    ]
-   },
+    {
+      "name": "transactions",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "saleDate" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "documentType" },
+        { "name": "documentNumber" },
+        { "name": "price" },
+        { "name": "sellerFirstName" },
+        { "name": "sellerMiddleName" },
+        { "name": "sellerLastName" },
+        { "name": "buyerFirstName" },
+        { "name": "buyerMiddleName" },
+        { "name": "buyerLastName" },
+        { "name": "lenderName" },
+        { "name": "loanType" },
+        { "name": "loanAmount" },
+        { "name": "mortgageTerm" },
+        { "name": "interestType" },
+        { "name": "parcelNumber" },
+        { "name": "ownerType" },
+        { "name": "contactOwnerMailAddressFull" }
+      ]
+    },
     { "name": "trustDescription" },
     { "name": "yearBuilt" },
     { "name": "zoning" }
