@@ -186,12 +186,31 @@
     { "name": "parking", "flatten": false },
     { "name": "parkingTypes", "flatten": false },
     { "name": "paymentTypes", "flatten": false },
-    { "name": "people", "flatten": false },
+    {
+      "name": "people",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
+        { "name": "equity" },
+        { "name": "equityPercent" },
+        { "name": "landline" },
+        { "name": "name" },
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "title" },
+        { "name": "people_key" }
+      ]
+    },
     { "name": "petPolicy" },
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode" },
-    { "name": "prices", "flatten": false, "sub_fields": [
+    {
+      "name": "prices",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "availability" },
