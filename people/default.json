@@ -103,6 +103,8 @@
     {"name": "postalCode"},
     {"name": "province"},
     {"name": "propertyKeys", "flatten": false},
+    {"name": "propertiesOwned", "flatten": false},
+    {"name": "propertiesRepresented", "flatten": false},
     {"name": "recentlySoldCount"},
     {"name": "revenueCurrency"},
     {"name": "revenueMax"},
