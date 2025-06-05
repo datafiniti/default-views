@@ -35,6 +35,9 @@
     ]
     },
     { "name": "buildingName" },
+    { "name": "capRate" },
+    { "name": "capRateSourceURL" },
+    { "name": "cbsaName" },
     { "name": "categories", "flatten": false },
     { "name": "cbsaName" },
     { "name": "cbsaCode" },
@@ -140,6 +143,8 @@
     { "name": "legalRange"},
     { "name": "listingName" },
     { "name": "longitude" },
+    { "name": "lotDepthValue" },
+    { "name": "lotDepthUnit" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
     
@@ -274,6 +279,7 @@
     },
     { "name": "roofing", "flatten": false },
     { "name": "rules", "flatten": false },
+    { "name": "sewerType"},
     { "name": "subdivision"},
     { "name": "statuses", "flatten": false, "sub_fields": [
         { "name": "date" },
