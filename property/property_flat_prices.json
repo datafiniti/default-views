@@ -14,6 +14,8 @@
         { "name": "improvementsAmount" }
       ]
     },
+    { "flatten": false, "name": "brandTenant"},
+    { "flatten": false, "name": "brokerCoop"},
     { "name": "brokers", "flatten": false, "sub_fields": [
       { "name": "agent" },
       { "name": "company" },
@@ -29,6 +31,7 @@
       { "name": "websites" }
     ]
     },
+    { "flatten": false, "name": "buildingClass"},
     { "name": "buildingName" },
     { "name": "categories", "flatten": false },
     { "name": "cbsaName" },
@@ -54,9 +57,12 @@
     { "name": "country" },
     { "name": "county" },
     { "name": "countyFIPS"},
+    { "flatten": false, "name": "corporateTenants"},
     { "name": "currentOwnerType"},
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
+    { "flatten": false, "name": "dateOnMarket"},
+    { "flatten": false, "name": "daysOnMarket"},
     { "name": "deposits", "flatten": false, "sub_fields": [
         { "name": "amount" },
         { "name": "currency" },
@@ -68,6 +74,7 @@
         { "name": "value" }
       ]
     },
+    { "flatten": false, "name": "effectiveGrossIncome"},
     { "name": "estimatedPrices", "flatten": false, "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
@@ -113,8 +120,12 @@
     { "name": "floorSizeUnit" },
     { "name": "geoLocation"},
     { "name": "geoQuality"},
+    { "flatten": false, "name": "grossRentalIncome"},
+    { "flatten": false, "name": "groundLease"},
     { "name": "hvacTypes", "flatten": false},
     { "name": "instrumentNumber"},
+    { "flatten": false, "name": "investmentSubtype"},
+    { "flatten": false, "name": "investmentType"},
     { "name": "isUnit"},
     { "name": "languagesSpoken", "flatten": false },
     { "name": "latitude" },
@@ -123,6 +134,7 @@
         { "name": "value" }
       ]
     },
+    { "flatten": false, "name": "leaseType"},
     { "name": "legalDescription"},
     { "name": "legalRange"},
     { "name": "listingName" },
@@ -167,13 +179,21 @@
     { "name": "msaName" },
     { "name": "msaCode" },
     { "name": "neighborhoods", "flatten": false },
+    { "flatten": false, "name": "netRentable"},
+    { "flatten": false, "name": "noi"},
     { "name": "numBathroom", "flatten": false },
     { "name": "numBedroom", "flatten": false },
+    { "flatten": false, "name": "numBuildings"},
     { "name": "numFloor", "flatten": false },
     { "name": "numParkingSpaces" },
     { "name": "numPeople", "flatten": false },
+    { "flatten": false, "name": "numProperties"},
     { "name": "numRoom", "flatten": false },
+    { "flatten": false, "name": "numTenants"},
     { "name": "numUnit", "flatten": false },
+    { "flatten": false, "name": "occupancy"},
+    { "flatten": false, "name": "operatingExpenses"},
+    { "flatten": false, "name": "otherIncome"},
     { "name": "ownerOccupiedStatus", "flatten": false, "sub_fields": [
         { "name": "status" },
         { "name": "firstDateSeen" },
@@ -182,6 +202,7 @@
         { "name": "endDate" }
       ]
     },
+    { "flatten": false, "name": "ownership"},
     { "name": "parcelNumbers", "flatten": false, "sub_fields": [
         { "name": "number" },
         { "name": "account" },
@@ -196,6 +217,7 @@
     {"name": "permits", "flatten": false },
     {"name": "phones", "flatten": false },
     {"name": "postalCode", "flatten": false },
+    { "flatten": false, "name": "proFormaNOI"},
     { "name": "prices", "flatten": true, "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
@@ -227,6 +249,20 @@
     },
     { "name": "propertyType" },
     { "name": "province" },
+    { "flatten": false, "name": "rentableSquareFeet"},
+    {
+        "name": "rentalStatuses",
+        "flatten": false,
+        "sub_fields": [
+          { "name": "date" },
+          { "name": "dateSeen" },
+          { "name": "firstDateSeen" },
+          { "name": "lastDateSeen" },
+          { "name": "sourceURLs" },
+          { "name": "type" }
+        ]
+    },
+    { "flatten": false, "name": "rentBumps"},
     { "name": "reviews", "flatten": false, "sub_fields": [
         { "name": "date" },
         { "name": "dateSeen" },
@@ -243,6 +279,8 @@
     },
     { "name": "roofing", "flatten": false },
     { "name": "rules", "flatten": false },
+    { "flatten": false, "name": "saleCondition"},
+    { "flatten": false, "name": "saleType"},
     { "name": "subdivision"},
     { "name": "statuses", "flatten": false, "sub_fields": [
         { "name": "date" },
@@ -253,12 +291,16 @@
         { "name": "type" }
       ]
     },
+    { "flatten": false, "name": "subtype"},
     { "name": "taxExemptions", "flatten": false },
     { "name": "taxID" },
+    { "flatten": false, "name": "tenancy"},
+    { "flatten": false, "name": "tenantCredit"},
     { "name": "yearBuilt" },
     { "name": "taxID" },
     { "name": "title" },
     { "name": "topographyCode" },
+    { "flatten": false, "name": "totalExpenses"},
     { "name": "transactions", "flatten": false, "sub_fields": [
       { "name": "saleDate" },
       { "name": "firstDateSeen" },
@@ -283,7 +325,10 @@
     ]
    },
     { "name": "trustDescription" },
+    { "flatten": false, "name": "vacancyLoss"},
+    { "flatten": false, "name": "virtualTour"},
     { "name": "yearBuilt" },
+    { "flatten": false, "name": "yearRenovated"},
     { "name": "zoning" }
   ]
 }
