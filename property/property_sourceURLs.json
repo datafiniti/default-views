@@ -1,597 +1,650 @@
 {
-    "name": "property_sourceURLs",
-    "data_type": "property",
-    "fields": [
-      {
-        "flatten": false,
-        "name": "address"
-      },
-      {
-        "flatten": false,
-        "name": "apiURLs"
-      },
-      {
-        "name": "assessedValues",
+  "name": "property_sourceURLs",
+  "data_type": "property",
+  "fields": [
+    {
+      "flatten": false,
+      "name": "address"
+    },
+    {
+      "flatten": false,
+      "name": "apiURLs"
+    },
+    {
+      "name": "assessedValues",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "year" },
+        { "name": "totalAmount" },
+        { "name": "landAmount" },
+        { "name": "improvementsAmount" }
+      ]
+    },
+    { "flatten": false, "name": "brandTenant"},
+    { "flatten": false, "name": "brokerCoop"},
+    {
+      "name": "brokers",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "agent" },
+        { "name": "company" },
+        { "name": "dateSeen" },
+        { "name": "emails" },
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "licenseType" },
+        { "name": "licenseNumber" },
+        { "name": "phones" },
+        { "name": "people_key" },
+        { "name": "role" },
+        { "name": "websites" }
+      ]
+    },
+    { "flatten": false, "name": "buildingClass"},
+    {
+      "flatten": false,
+      "name": "buildingName"
+    },
+    {
+      "flatten": false,
+      "name": "city"
+    },
+    {
+      "name": "companies",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
+        { "name": "equity" },
+        { "name": "equityPercent" },
+        { "name": "landline" },
+        { "name": "name" },
+        { "name": "title" }
+      ]
+    },
+    {
+      "flatten": false,
+      "name": "congressionalDistrictHouse"
+    },
+    { "flatten": false, "name": "corporateTenants"},
+    {
+      "flatten": false,
+      "name": "country"
+    },
+    {
+      "flatten": false,
+      "name": "county"
+    },
+    {
+      "flatten": false,
+      "name": "countyFIPS"
+    },
+    {
+      "flatten": false,
+      "name": "currentOwnerType"
+    },
+    {
+      "flatten": false,
+      "name": "dateAdded"
+    },
+    {
+      "flatten": false,
+      "name": "dateUpdated"
+    },
+    { "flatten": false, "name": "dateOnMarket"},
+    { "flatten": false, "name": "daysOnMarket"},
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "amount"
+        },
+        {
+          "name": "currency"
+        },
+        {
+          "name": "dateSeen"
+        }
+      ],
+      "name": "deposits"
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "name": "descriptions"
+    },
+    {
+      "flatten": false,
+      "name": "domains"
+    },
+    { "flatten": false, "name": "effectiveGrossIncome"},
+    {
+      "name": "estimatedPrices",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "amountMax" },
+        { "name": "amountMin" },
+        { "name": "availability" },
+        { "name": "comment" },
+        { "name": "currency" },
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "dateValidStart" },
+        { "name": "dateValidEnd" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "domains" },
+        { "name": "isSale" },
+        { "name": "isSold" },
+        { "name": "minStay" },
+        { "name": "period" },
+        { "name": "pricePerSquareFoot" },
+        { "name": "status" }
+      ]
+    },
+    {
+      "flatten": false,
+      "name": "features"
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "amountMax"
+        },
+        {
+          "name": "amountMin"
+        },
+        {
+          "name": "currency"
+        },
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "type"
+        }
+      ],
+      "name": "fees"
+    },
+    {
+      "flatten": false,
+      "name": "floorSizeValue"
+    },
+    {
+      "flatten": false,
+      "name": "floorSizeUnit"
+    },
+    {
+      "flatten": false,
+      "name": "geoLocation"
+    },
+    { "flatten": false, "name": "grossRentalIncome"},
+    { "flatten": false, "name": "groundLease"},
+    {
+      "flatten": false,
+      "name": "imageURLs"
+    },
+    {
+      "flatten": false,
+      "name": "instrumentNumber"
+    },
+    { "flatten": false, "name": "investmentSubtype"},
+    { "flatten": false, "name": "investmentType"},
+    {
+      "flatten": false,
+      "name": "keys"
+    },
+    {
+      "flatten": false,
+      "name": "languagesSpoken"
+    },
+    {
+      "flatten": false,
+      "name": "latitude"
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "name": "leasingTerms"
+    },
+    { "flatten": false, "name": "leaseType"},
+    {
+      "flatten": false,
+      "name": "legalDescription"
+    },
+    {
+      "flatten": false,
+      "name": "legalRange"
+    },
+    {
+      "flatten": false,
+      "name": "listingName"
+    },
+    {
+      "flatten": false,
+      "name": "longitude"
+    },
+    {
+      "flatten": false,
+      "name": "lotSizeValue"
+    },
+    {
+      "flatten": false,
+      "name": "lotSizeUnit"
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "name": "managedBy"
+    },
+    {
+      "flatten": false,
+      "name": "mostRecentPriceAmount"
+    },
+    {
+      "flatten": false,
+      "name": "mostRecentPriceDomain"
+    },
+    {
+      "flatten": false,
+      "name": "mostRecentPriceSourceURL"
+    },
+    {
+      "flatten": false,
+      "name": "mostRecentPriceDate"
+    },
+    {
+      "flatten": false,
+      "name": "mostRecentPriceFirstDateSeen"
+    },
+    { "name": "mostRecentBrokerAgent" },
+    { "name": "mostRecentBrokerCompany" },
+    { "name": "mostRecentBrokerEmails", "flatten": false },
+    { "name": "mostRecentBrokerPhones", "flatten": false },
+    { "name": "mostRecentBrokerDateSeen" },
+    { "name": "mostRecentPriceAmount" },
+    { "name": "mostRecentPriceDomain" },
+    { "name": "mostRecentPricePerSquareFoot" },
+    { "name": "mostRecentPriceSourceURL" },
+    { "name": "mostRecentPriceDate" },
+    { "name": "mostRecentPriceFirstDateSeen" },
+    { "name": "mostRecentRentalPriceAmount" },
+    { "name": "mostRecentRentalPricePeriod" },
+    { "name": "mostRecentRentalPriceDomain" },
+    { "name": "mostRecentRentalPricePerSquareFoot" },
+    { "name": "mostRecentRentalPriceSourceURL" },
+    { "name": "mostRecentRentalPriceDate" },
+    { "name": "mostRecentRentalPriceFirstDateSeen" },
+    { "name": "mostRecentEstimatedPriceAmount" },
+    { "name": "mostRecentEstimatedPriceDomain" },
+    { "name": "mostRecentEstimatedPricePerSquareFoot" },
+    { "name": "mostRecentEstimatedPriceSourceURL" },
+    { "name": "mostRecentEstimatedPriceDate" },
+    { "name": "mostRecentEstimatedPriceFirstDateSeen" },
+    { "name": "mostRecentStatus" },
+    { "name": "mostRecentStatusDate" },
+    { "name": "mostRecentStatusFirstDateSeen" },
+    { "name": "mostRecentVacancy" },
+    { "name": "mostRecentVacancyFirstDateSeen" },
+    { "name": "mostRecentAbsenteeOwner" },
+    { "name": "mostRecentAbsenteeOwnerFirstDateSeen" },
+    { "name": "mostRecentInvoluntaryJudgement" },
+    { "name": "mostRecentInvoluntaryLien" },
+    { "name": "mostRecentInvoluntaryLienJudgementFirstDateSeen" },
+    {
+      "flatten": false,
+      "name": "mlsNumber"
+    },
+    {
+      "flatten": false,
+      "name": "neighborhoods"
+    },
+    { "flatten": false, "name": "netRentable"},
+    { "flatten": false, "name": "noi"},
+    {
+      "flatten": false,
+      "name": "numBathroom"
+    },
+    {
+      "flatten": false,
+      "name": "numBedroom"
+    },
+    { "flatten": false, "name": "numBuildings"},
+    {
+      "flatten": false,
+      "name": "numFloor"
+    },
+    {
+      "flatten": false,
+      "name": "numPeople"
+    },
+    { "flatten": false, "name": "numProperties"},
+    {
+      "flatten": false,
+      "name": "numRoom"
+    },
+    { "flatten": false, "name": "numTenants"},
+    {
+      "flatten": false,
+      "name": "numUnit"
+    },
+    { "flatten": false, "name": "occupancy"},
+    { "flatten": false, "name": "operatingExpenses"},
+    { "flatten": false, "name": "otherIncome"},
+    { "flatten": false, "name": "ownership"},
+    {
+      "flatten": false,
+      "name": "parking"
+    },
+    {
+      "flatten": false,
+      "name": "paymentTypes"
+    },
+    {
+      "name": "people",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "dateSeen" },
+        { "name": "startDate" },
+        { "name": "endDate" },
+        { "name": "equity" },
+        { "name": "equityPercent" },
+        { "name": "landline" },
+        { "name": "name" },
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "title" },
+        { "name": "people_key" }
+      ]
+    },
+    {
+      "flatten": false,
+      "name": "petPolicy"
+    },
+    {
+      "flatten": false,
+      "name": "phones"
+    },
+    {
+      "flatten": false,
+      "name": "postalCode"
+    },
+    { "flatten": false, "name": "proFormaNOI"},
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "amountMax"
+        },
+        {
+          "name": "amountMin"
+        },
+        {
+          "name": "availability"
+        },
+        {
+          "name": "comment"
+        },
+        {
+          "name": "currency"
+        },
+        {
+          "name": "date"
+        },
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "dateValidStart"
+        },
+        {
+          "name": "dateValidEnd"
+        },
+        {
+          "name": "isSale"
+        },
+        {
+          "name": "isSold"
+        },
+        {
+          "name": "minStay"
+        },
+        {
+          "name": "period"
+        },
+        {
+          "name": "pricePerSquareFoot"
+        }
+      ],
+      "name": "prices"
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "amount"
+        },
+        {
+          "name": "currency"
+        },
+        { "name": "year" },
+        { "name": "rate" },
+        {
+          "name": "dateSeen"
+        }
+      ],
+      "name": "propertyTaxes"
+    },
+    {
+      "flatten": false,
+      "name": "propertyType"
+    },
+    {
+      "flatten": false,
+      "name": "province"
+    },
+    { "flatten": false, "name": "rentableSquareFeet"},
+    {
+        "name": "rentalStatuses",
         "flatten": false,
         "sub_fields": [
-          { "name": "year" },
-          { "name": "totalAmount" },
-          { "name": "landAmount" },
-          { "name": "improvementsAmount" }
-        ]
-      },
-      {
-        "name": "brokers",
-        "flatten": false,
-        "sub_fields": [
-          { "name": "agent" },
-          { "name": "company" },
-          { "name": "dateSeen" },
-          { "name": "emails" },
-          { "name": "firstName" },
-          { "name": "lastName" },
-          { "name": "licenseType" },
-          { "name": "licenseNumber" },
-          { "name": "phones" },
-          { "name": "people_key" },
-          { "name": "role" },
-          { "name": "websites" }
-        ]
-      },
-      {
-        "flatten": false,
-        "name": "buildingName"
-      },
-      {
-        "flatten": false,
-        "name": "city"
-      },
-      {
-        "name": "companies",
-        "flatten": false,
-        "sub_fields": [
-          { "name": "dateSeen" },
-          { "name": "startDate" },
-          { "name": "endDate" },
-          { "name": "equity" },
-          { "name": "equityPercent" },
-          { "name": "landline" },
-          { "name": "name" },
-          { "name": "title" }
-        ]
-      },
-      {
-        "flatten": false,
-        "name": "congressionalDistrictHouse"
-      },
-      {
-        "flatten": false,
-        "name": "country"
-      },
-      {
-        "flatten": false,
-        "name": "county"
-      },
-      {
-        "flatten": false,
-        "name": "countyFIPS"
-      },
-      {
-        "flatten": false,
-        "name": "currentOwnerType"
-      },
-      {
-        "flatten": false,
-        "name": "dateAdded"
-      },
-      {
-        "flatten": false,
-        "name": "dateUpdated"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "amount"
-          },
-          {
-            "name": "currency"
-          },
-          {
-            "name": "dateSeen"
-          }
-        ],
-        "name": "deposits"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "value"
-          }
-        ],
-        "name": "descriptions"
-      },
-      {
-        "flatten": false,
-        "name": "domains"
-      },
-      {
-        "name": "estimatedPrices",
-        "flatten": false,
-        "sub_fields": [
-          { "name": "amountMax" },
-          { "name": "amountMin" },
-          { "name": "availability" },
-          { "name": "comment" },
-          { "name": "currency" },
           { "name": "date" },
           { "name": "dateSeen" },
-          { "name": "dateValidStart" },
-          { "name": "dateValidEnd" },
           { "name": "firstDateSeen" },
           { "name": "lastDateSeen" },
-          { "name": "domains" },
-          { "name": "isSale" },
-          { "name": "isSold" },
-          { "name": "minStay" },
-          { "name": "period" },
-          { "name": "pricePerSquareFoot" },
-          { "name": "status" }
+          { "name": "sourceURLs" },
+          { "name": "type" }
         ]
-      },
-      {
-        "flatten": false,
-        "name": "features"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "amountMax"
-          },
-          {
-            "name": "amountMin"
-          },
-          {
-            "name": "currency"
-          },
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "type"
-          }
-        ],
-        "name": "fees"
-      },
-      {
-        "flatten": false,
-        "name": "floorSizeValue"
-      },
-      {
-        "flatten": false,
-        "name": "floorSizeUnit"
-      },
-      {
-        "flatten": false,
-        "name": "geoLocation"
-      },
-      {
-        "flatten": false,
-        "name": "imageURLs"
-      },
-      {
-        "flatten": false,
-        "name": "instrumentNumber"
-      },
-      {
-        "flatten": false,
-        "name": "keys"
-      },
-      {
-        "flatten": false,
-        "name": "languagesSpoken"
-      },
-      {
-        "flatten": false,
-        "name": "latitude"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "value"
-          }
-        ],
-        "name": "leasingTerms"
-      },
-      {
-        "flatten": false,
-        "name": "legalDescription"
-      },
-      {
-        "flatten": false,
-        "name": "legalRange"
-      },
-      {
-        "flatten": false,
-        "name": "listingName"
-      },
-      {
-        "flatten": false,
-        "name": "longitude"
-      },
-      {
-        "flatten": false,
-        "name": "lotSizeValue"
-      },
-      {
-        "flatten": false,
-        "name": "lotSizeUnit"
-      },
-      {
+    },
+    { "flatten": false, "name": "rentBumps"},
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "date"
+        },
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "didPurchase"
+        },
+        {
+          "name": "doRecommend"
+        },
+        {
+          "name": "numHelpful"
+        },
+        {
+          "name": "rating"
+        },
+        {
+          "name": "text"
+        },
+        {
+          "name": "sourceURLs"
+        },
+        {
+          "name": "title"
+        },
+        {
+          "name": "userCity"
+        },
+        {
+          "name": "username"
+        },
+        {
+          "name": "userProvince"
+        }
+      ],
+      "name": "reviews"
+    },
+    {
+      "flatten": false,
+      "name": "rules"
+    },
+    { "flatten": false, "name": "saleCondition"},
+    { "flatten": false, "name": "saleType"},
+    {
+      "flatten": false,
+      "name": "subdivision"
+    },
+    {
+      "flatten": false,
+      "name": "sourceURLs"
+    },
+    {
+        "name": "sourceURLsPerField",
         "flatten": false,
         "sub_fields": [
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "value"
-          }
-        ],
-        "name": "managedBy"
-      },
-      {
-        "flatten": false,
-        "name": "mostRecentPriceAmount"
-      },
-      {
-        "flatten": false,
-        "name": "mostRecentPriceDomain"
-      },
-      {
-        "flatten": false,
-        "name": "mostRecentPriceSourceURL"
-      },
-      {
-        "flatten": false,
-        "name": "mostRecentPriceDate"
-      },
-      {
-        "flatten": false,
-        "name": "mostRecentPriceFirstDateSeen"
-      },
-      { "name": "mostRecentBrokerAgent" },
-      { "name": "mostRecentBrokerCompany" },
-      { "name": "mostRecentBrokerEmails", "flatten": false },
-      { "name": "mostRecentBrokerPhones", "flatten": false },
-      { "name": "mostRecentBrokerDateSeen" },
-      { "name": "mostRecentPriceAmount" },
-      { "name": "mostRecentPriceDomain" },
-      { "name": "mostRecentPricePerSquareFoot" },
-      { "name": "mostRecentPriceSourceURL" },
-      { "name": "mostRecentPriceDate" },
-      { "name": "mostRecentPriceFirstDateSeen" },
-      { "name": "mostRecentRentalPriceAmount" },
-      { "name": "mostRecentRentalPricePeriod" },
-      { "name": "mostRecentRentalPriceDomain" },
-      { "name": "mostRecentRentalPricePerSquareFoot" },
-      { "name": "mostRecentRentalPriceSourceURL" },
-      { "name": "mostRecentRentalPriceDate" },
-      { "name": "mostRecentRentalPriceFirstDateSeen" },
-      { "name": "mostRecentEstimatedPriceAmount" },
-      { "name": "mostRecentEstimatedPriceDomain" },
-      { "name": "mostRecentEstimatedPricePerSquareFoot" },
-      { "name": "mostRecentEstimatedPriceSourceURL" },
-      { "name": "mostRecentEstimatedPriceDate" },
-      { "name": "mostRecentEstimatedPriceFirstDateSeen" },
-      { "name": "mostRecentStatus" },
-      { "name": "mostRecentStatusDate" },
-      { "name": "mostRecentStatusFirstDateSeen" },
-      { "name": "mostRecentVacancy" },
-      { "name": "mostRecentVacancyFirstDateSeen" },
-      { "name": "mostRecentAbsenteeOwner" },
-      { "name": "mostRecentAbsenteeOwnerFirstDateSeen" },
-      { "name": "mostRecentInvoluntaryJudgement" },
-      { "name": "mostRecentInvoluntaryLien" },
-      { "name": "mostRecentInvoluntaryLienJudgementFirstDateSeen" },
-      {
-        "flatten": false,
-        "name": "mlsNumber"
-      },
-      {
-        "flatten": false,
-        "name": "neighborhoods"
-      },
-      {
-        "flatten": false,
-        "name": "numBathroom"
-      },
-      {
-        "flatten": false,
-        "name": "numBedroom"
-      },
-      {
-        "flatten": false,
-        "name": "numFloor"
-      },
-      {
-        "flatten": false,
-        "name": "numPeople"
-      },
-      {
-        "flatten": false,
-        "name": "numRoom"
-      },
-      {
-        "flatten": false,
-        "name": "numUnit"
-      },
-      {
-        "flatten": false,
-        "name": "parking"
-      },
-      {
-        "flatten": false,
-        "name": "paymentTypes"
-      },
-      {
-        "name": "people",
-        "flatten": false,
-        "sub_fields": [
-          { "name": "dateSeen" },
-          { "name": "startDate" },
-          { "name": "endDate" },
-          { "name": "equity" },
-          { "name": "equityPercent" },
-          { "name": "landline" },
-          { "name": "name" },
-          { "name": "firstName" },
-          { "name": "lastName" },
-          { "name": "title" },
-          { "name": "people_key" }
+          { "name": "field" },
+          { "name": "sourceURLs" }
         ]
-      },
-      {
-        "flatten": false,
-        "name": "petPolicy"
-      },
-      {
-        "flatten": false,
-        "name": "phones"
-      },
-      {
-        "flatten": false,
-        "name": "postalCode"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "amountMax"
-          },
-          {
-            "name": "amountMin"
-          },
-          {
-            "name": "availability"
-          },
-          {
-            "name": "comment"
-          },
-          {
-            "name": "currency"
-          },
-          {
-            "name": "date"
-          },
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "dateValidStart"
-          },
-          {
-            "name": "dateValidEnd"
-          },
-          {
-            "name": "isSale"
-          },
-          {
-            "name": "isSold"
-          },
-          {
-            "name": "minStay"
-          },
-          {
-            "name": "period"
-          },
-          {
-            "name": "pricePerSquareFoot"
-          }
-        ],
-        "name": "prices"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "amount"
-          },
-          {
-            "name": "currency"
-          },
-          { "name": "year" },
-          { "name": "rate" },
-          {
-            "name": "dateSeen"
-          }
-        ],
-        "name": "propertyTaxes"
-      },
-      {
-        "flatten": false,
-        "name": "propertyType"
-      },
-      {
-        "flatten": false,
-        "name": "province"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "date"
-          },
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "didPurchase"
-          },
-          {
-            "name": "doRecommend"
-          },
-          {
-            "name": "numHelpful"
-          },
-          {
-            "name": "rating"
-          },
-          {
-            "name": "text"
-          },
-          {
-            "name": "sourceURLs"
-          },
-          {
-            "name": "title"
-          },
-          {
-            "name": "userCity"
-          },
-          {
-            "name": "username"
-          },
-          {
-            "name": "userProvince"
-          }
-        ],
-        "name": "reviews"
-      },
-      {
-        "flatten": false,
-        "name": "rules"
-      },
-      {
-        "flatten": false,
-        "name": "subdivision"
-      },
-      {
-        "flatten": false,
-        "name": "sourceURLs"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "date"
-          },
-          {
-            "name": "dateSeen"
-          },
-          {
-            "name": "firstDateSeen"
-          },
-          {
-            "name": "lastDateSeen"
-          },
-          {
-            "name": "isUnderContract"
-          },
-          {
-            "name": "type"
-          }
-        ],
-        "name": "statuses"
-      },
-      {
-        "flatten": false,
-        "name": "taxID"
-      },
-      {
-        "flatten": false,
-        "sub_fields": [
-          {
-            "name": "saleDate"
-          },
-          {
-            "name": "firstDateSeen"
-          },
-          {
-            "name": "lastDateSeen"
-          },
-          {
-            "name": "documentType"
-          },
-          {
-            "name": "price"
-          },
-          {
-            "name": "sellerFirstName"
-          },
-          {
-            "name": "sellerMiddleName"
-          },
-          {
-            "name": "sellerLastName"
-          },
-          {
-            "name": "buyerFirstName"
-          },
-          {
-            "name": "buyerMiddleName"
-          },
-          {
-            "name": "buyerLastName"
-          },
-          {
-            "name": "lenderName"
-          },
-          {
-            "name": "loanType"
-          },
-          {
-            "name": "loanAmount"
-          },
-          {
-            "name": "mortgageTerm"
-          },
-          {
-            "name": "interestType"
-          },
-          {
-            "name": "parcelNumber"
-          },
-          {
-            "name": "ownerType"
-          },
-          {
-            "name": "contactOwnerMailAddressFull"
-          }
-        ],
-        "name": "transactions"
-      },
-      {
-        "flatten": false,
-        "name": "yearBuilt"
-      }
-    ]
+    },
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "date"
+        },
+        {
+          "name": "dateSeen"
+        },
+        {
+          "name": "firstDateSeen"
+        },
+        {
+          "name": "lastDateSeen"
+        },
+        {
+          "name": "isUnderContract"
+        },
+        {
+          "name": "type"
+        }
+      ],
+      "name": "statuses"
+    },
+    { "flatten": false, "name": "subtype"},
+    {
+      "flatten": false,
+      "name": "taxID"
+    },
+    { "flatten": false, "name": "tenancy"},
+    { "flatten": false, "name": "tenantCredit"},
+    { "flatten": false, "name": "totalExpenses"},
+    {
+      "flatten": false,
+      "sub_fields": [
+        {
+          "name": "saleDate"
+        },
+        {
+          "name": "firstDateSeen"
+        },
+        {
+          "name": "lastDateSeen"
+        },
+        {
+          "name": "documentType"
+        },
+        {
+          "name": "price"
+        },
+        {
+          "name": "sellerFirstName"
+        },
+        {
+          "name": "sellerMiddleName"
+        },
+        {
+          "name": "sellerLastName"
+        },
+        {
+          "name": "buyerFirstName"
+        },
+        {
+          "name": "buyerMiddleName"
+        },
+        {
+          "name": "buyerLastName"
+        },
+        {
+          "name": "lenderName"
+        },
+        {
+          "name": "loanType"
+        },
+        {
+          "name": "loanAmount"
+        },
+        {
+          "name": "mortgageTerm"
+        },
+        {
+          "name": "interestType"
+        },
+        {
+          "name": "parcelNumber"
+        },
+        {
+          "name": "ownerType"
+        },
+        {
+          "name": "contactOwnerMailAddressFull"
+        }
+      ],
+      "name": "transactions"
+    },
+    { "flatten": false, "name": "vacancyLoss"},
+    { "flatten": false, "name": "virtualTour"},
+    {
+      "flatten": false,
+      "name": "yearBuilt"
+    },
+    { "flatten": false, "name": "yearRenovated"}
+  ]
 }
