@@ -159,7 +159,7 @@
     { "name": "lotDepthUnit" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
-    
+    { "name": "majorTenants", "flatten": false},
     { "name": "managedBy", "flatten": false, "sub_fields": [
         { "name": "dateSeen" },
         { "name": "value" }
