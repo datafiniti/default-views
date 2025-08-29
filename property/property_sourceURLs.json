@@ -248,6 +248,7 @@
       "flatten": false,
       "name": "lotSizeUnit"
     },
+    { "name": "majorTenants", "flatten": false},
     {
       "flatten": false,
       "sub_fields": [
