@@ -55,6 +55,7 @@
     { "name": "mostRecentRentalPriceAmount" },
     { "name": "mostRecentRentalPricePerSquareFoot" },
     { "name": "mostRecentStatus" },
+    { "name": "mostRecentStatusDate" },
     { "name": "mostRecentRentalStatus" },
     { "name": "mostRecentRentalStatusDate" },
     { "name": "mlsName" },
