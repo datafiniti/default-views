@@ -320,7 +320,7 @@
     { "name": "rules", "flatten": false },
     { "flatten": false, "name": "saleCondition"},
     { "flatten": false, "name": "saleType"},
-    { "name": "sewerType"},
+    { "name": "sewerType", "flatten": false},
     { "name": "subdivision"},
     { "name": "statuses", "flatten": false, "sub_fields": [
         { "name": "date" },
