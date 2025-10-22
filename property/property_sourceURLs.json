@@ -299,7 +299,7 @@
     { "name": "mostRecentRentalPricePerSquareFoot" },
     { "name": "mostRecentRentalPriceSourceURL" },
     { "name": "mostRecentRentalPriceDate" },
-    { "name": "mostRecentRentalPriceFirstDateSeen" },,
+    { "name": "mostRecentRentalPriceFirstDateSeen" },
     { "name": "mostRecentSoldPriceAmount" },
     { "name": "mostRecentSoldPricePerSquareFoot" },
     { "name": "mostRecentSoldPriceDomain" },
