@@ -152,19 +152,6 @@
     { "name": "mostRecentBrokerEmails", "flatten": false  },
     { "name": "mostRecentBrokerPhones", "flatten": false  },
     { "name": "mostRecentBrokerDateSeen" },
-    { "name": "mostRecentPriceAmount" },
-    { "name": "mostRecentPriceDomain" },
-    { "name": "mostRecentPricePerSquareFoot" },
-    { "name": "mostRecentPriceSourceURL" },
-    { "name": "mostRecentPriceDate" },
-    { "name": "mostRecentPriceFirstDateSeen" },
-    { "name": "mostRecentRentalPriceAmount" },
-    { "name": "mostRecentRentalPricePeriod" },
-    { "name": "mostRecentRentalPriceDomain" },
-    { "name": "mostRecentRentalPricePerSquareFoot" },
-    { "name": "mostRecentRentalPriceSourceURL" },
-    { "name": "mostRecentRentalPriceDate" },
-    { "name": "mostRecentRentalPriceFirstDateSeen" },
     { "name": "mostRecentEstimatedPriceAmount" },
     { "name": "mostRecentEstimatedPriceDomain" },
     { "name": "mostRecentEstimatedPricePerSquareFoot" },
@@ -333,4 +320,5 @@
     { "name": "zoning" }
   ]
 }
+
 
