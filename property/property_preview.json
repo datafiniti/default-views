@@ -57,6 +57,8 @@
     { "name": "mostRecentSoldPriceAmount" },
     { "name": "mostRecentSoldPricePerSquareFoot" },
     { "name": "mostRecentSaleListPriceAmount" },
+    { "name": "mostRecentSaleListPricePerSquareFoot" },
+    { "name": "mostRecentRentalListPriceAmount" },
     { "name": "mostRecentRentalListPricePerSquareFoot" },
     { "name": "mostRecentStatus" },
     { "name": "mostRecentStatusDate" },
