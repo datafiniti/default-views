@@ -281,8 +281,7 @@
         { "name": "minStay" },
         { "name": "period" },
         { "name": "pricePerSquareFoot" },
-        { "name": "status"},
-        { "name": "type"}
+        { "name": "status"}
       ]
     },
     { "name": "propertyTaxes", "flatten": false, "sub_fields": [
