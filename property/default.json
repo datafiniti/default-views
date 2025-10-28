@@ -295,7 +295,7 @@
         { "name": "period" },
         { "name": "pricePerSquareFoot" },
         { "name": "status"},
-        { "name": "type"},
+        { "name": "type"}
       ]
     },
     { "name": "propertyTaxes", "flatten": false, "sub_fields": [
