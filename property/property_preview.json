@@ -6,7 +6,10 @@
     { "name": "city" },
     { "name": "country" },
     { "name": "county" },
-    { "name": "companies", "flatten": false, "sub_fields": [
+    {
+      "name": "companies",
+      "flatten": false,
+      "sub_fields": [
         { "name": "dateSeen" },
         { "name": "startDate" },
         { "name": "endDate" },
@@ -19,7 +22,10 @@
     },
     { "name": "dateAdded" },
     { "name": "dateUpdated" },
-    { "name": "estimatedPrices", "flatten": false, "sub_fields": [
+    {
+      "name": "estimatedPrices",
+      "flatten": false,
+      "sub_fields": [
         { "name": "amountMax" },
         { "name": "amountMin" },
         { "name": "availability" },
@@ -31,25 +37,28 @@
         { "name": "dateValidEnd" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
-        { "name": "domains"},
+        { "name": "domains" },
         { "name": "isSale" },
         { "name": "isSold" },
         { "name": "minStay" },
         { "name": "period" },
         { "name": "pricePerSquareFoot" },
-        { "name": "status"}
+        { "name": "status" }
       ]
     },
     { "name": "floorSizeValue" },
     { "name": "floorSizeUnit" },
-    { "name": "imageURLs", "flatten": false  },
-    { "name": "keys", "flatten": false  },
+    { "name": "imageURLs", "flatten": false },
+    { "name": "keys", "flatten": false },
     { "name": "latitude" },
     { "name": "longitude" },
     { "name": "lotSizeValue" },
     { "name": "lotSizeUnit" },
     { "name": "mostRecentBrokerAgent" },
     { "name": "mostRecentBrokerCompany" },
+    { "name": "mostRecentOwnerFirstName" },
+    { "name": "mostRecentOwnerLastName" },
+    { "name": "mostRecentOwnerPeopleKey" },
     { "name": "mostRecentPriceAmount" },
     { "name": "mostRecentPricePerSquareFoot" },
     { "name": "mostRecentRentalPriceAmount" },
@@ -75,6 +84,17 @@
     { "name": "numPeople" },
     { "name": "numRoom" },
     { "name": "numUnit" },
+    {
+      "name": "owners",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "firstName" },
+        { "name": "lastName" },
+        { "name": "transactionDate" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" }
+      ]
+    },
     { "name": "people", "flatten": false },
     { "name": "postalCode" },
     { "name": "propertyType" },
