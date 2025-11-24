@@ -200,6 +200,7 @@
     { "name": "mostRecentOwnerFirstName" },
     { "name": "mostRecentOwnerLastName" },
     { "name": "mostRecentOwnerPeopleKey" },
+    { "name": "mostRecentOwnerTransactionDate" },
     { "name": "mostRecentPriceAmount" },
     { "name": "mostRecentPricePerSquareFoot" },
     { "name": "mostRecentPriceDomain" },
@@ -288,7 +289,8 @@
         { "name": "lastName" },
         { "name": "transactionDate" },
         { "name": "firstDateSeen" },
-        { "name": "lastDateSeen" }
+        { "name": "lastDateSeen" },
+        { "name": "people_key" }
       ]
     },
     { "flatten": false, "name": "ownership" },

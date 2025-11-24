@@ -120,7 +120,7 @@
     { "name": "province" },
     { "name": "propertyKeys", "flatten": false },
     {
-      "name": "propertiesOwned",
+      "name": "propertiesOwnedHistory",
       "flatten": false,
       "sub_fields": [
         { "name": "propertyKey" },
