@@ -50,6 +50,8 @@
     {
       "name": "linkedinURL"
     },
+    { "name": "mostRecentPropertyPurchaseDate" },
+    { "name": "mostRecentPropertyPurchaseKey" },
     {
       "name": "personalEmails",
       "flatten": false
@@ -91,6 +93,15 @@
     {
       "name": "professionalEmails",
       "flatten": false
+    },
+    {
+      "name": "propertiesOwned",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "propertyKey" },
+        { "name": "datePurchased" },
+        { "name": "dateSold" }
+      ]
     },
     {
       "name": "postalCode"
