@@ -290,7 +290,7 @@
         { "name": "transactionDate" },
         { "name": "firstDateSeen" },
         { "name": "lastDateSeen" },
-        { "name": "people_key" }
+        { "name": "peopleKey" }
       ]
     },
     { "flatten": false, "name": "ownership" },
