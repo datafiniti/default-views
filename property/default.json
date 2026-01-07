@@ -415,6 +415,18 @@
         { "name": "type" }
       ]
     },
+    {
+      "name": "statusHistory",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "isUnderContract" },
+        { "name": "type" }
+      ]
+    },
     { "flatten": false, "name": "subtype" },
     { "name": "taxExemptions", "flatten": false },
     { "name": "taxID" },
