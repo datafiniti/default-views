@@ -603,6 +603,18 @@
       ],
       "name": "statuses"
     },
+    {
+      "name": "statusHistory",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "date" },
+        { "name": "dateSeen" },
+        { "name": "firstDateSeen" },
+        { "name": "lastDateSeen" },
+        { "name": "isUnderContract" },
+        { "name": "type" }
+      ]
+    },
     { "flatten": false, "name": "subtype" },
     {
       "flatten": false,
