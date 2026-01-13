@@ -217,6 +217,9 @@
     { "name": "mostRecentStatus", "flatten": false },
     { "name": "mostRecentStatusDate" },
     { "name": "mostRecentStatusFirstDateSeen" },
+    { "name": "mostRecentRentalStatus" },
+    { "name": "mostRecentRentalStatusDate" },
+    { "name": "mostRecentRentalStatusFirstDateSeen" },
     { "name": "mlsName" },
     { "name": "mlsID" },
     { "name": "mlsNumber", "flatten": false },
@@ -421,6 +424,7 @@
     { "name": "zoning" }
   ]
 }
+
 
 
 
