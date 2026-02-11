@@ -89,6 +89,7 @@
     { "name": "minListingPrice" },
     { "name": "minRecentSoldPrice" },
     { "name": "mobilePhone" },
+    { "name": "mostRecentProfileImageURL" },
     { "name": "mostRecentPropertyPurchaseDate" },
     { "name": "mostRecentPropertyPurchaseKey" },
     { "name": "municipality" },
@@ -118,6 +119,7 @@
     { "name": "professionalEmails", "flatten": false },
     { "name": "postalCode" },
     { "name": "province" },
+    { "name": "profileImageURLs", "flatten": false },
     { "name": "propertyKeys", "flatten": false },
     { "name": "propertiesOwned", "flatten": false },
     {
