@@ -3,6 +3,7 @@
   "data_type": "property",
   "fields": [
     { "name": "address" },
+    { "name": "addressStandardized" },
     { "name": "city" },
     { "name": "country" },
     { "name": "county" },
