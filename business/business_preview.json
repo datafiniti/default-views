@@ -5,6 +5,7 @@
     {
       "name": "address"
     },
+    { "name": "addressStandardized" },
     {
       "name": "categories",
       "flatten": false
