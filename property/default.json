@@ -12,6 +12,7 @@
       ]
     },
     { "name": "address" },
+    { "name": "addressStandardized" },
     { "name": "apiURLs", "flatten": false },
     { "name": "appliances", "flatten": false },
     { "name": "architecturalStyles", "flatten": false },
