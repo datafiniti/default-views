@@ -6,6 +6,7 @@
       "flatten": false,
       "name": "address"
     },
+    { "name": "addressStandardized" },
     {
       "flatten": false,
       "name": "apiURLs"
