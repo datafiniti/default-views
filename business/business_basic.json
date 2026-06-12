@@ -3,6 +3,7 @@
   "data_type": "business",
   "fields": [
     { "name": "address" },
+    { "name": "addressStandardized" },
     { "name": "city" },
     { "name": "country" },
     { "name": "keys", "flatten": false },
