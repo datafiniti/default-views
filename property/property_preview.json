@@ -98,6 +98,7 @@
     },
     { "name": "people", "flatten": false },
     { "name": "postalCode" },
+    { "name": "postalCodePlusFour" },
     { "name": "propertyType" },
     { "name": "province" }
   ]

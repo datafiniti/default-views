@@ -282,6 +282,7 @@
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode", "flatten": false },
+    { "name": "postalCodePlusFour", "flatten": false },
     { "flatten": false, "name": "proFormaNOI" },
     {
       "name": "prices",
