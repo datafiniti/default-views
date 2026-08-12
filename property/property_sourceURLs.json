@@ -431,6 +431,10 @@
       "flatten": false,
       "name": "postalCode"
     },
+    {
+      "flatten": false,
+      "name": "postalCodePlusFour"
+    },
     { "flatten": false, "name": "proFormaNOI" },
     {
       "flatten": false,

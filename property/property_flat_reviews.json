@@ -280,6 +280,7 @@
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode" },
+    { "name": "postalCodePlusFour" },
     { "flatten": false, "name": "proFormaNOI" },
     {
       "name": "prices",
