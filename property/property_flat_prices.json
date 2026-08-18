@@ -279,6 +279,15 @@
     { "name": "paymentTypes", "flatten": false },
     { "name": "people", "flatten": false },
     { "name": "petPolicy", "flatten": false },
+    {
+      "name": "permitDetails",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "number" },
+        { "name": "type" },
+        { "name": "date" }
+      ]
+    },
     { "name": "permits", "flatten": false },
     { "name": "phones", "flatten": false },
     { "name": "postalCode", "flatten": false },
