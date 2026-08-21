@@ -264,6 +264,17 @@
     },
     { "flatten": false, "name": "ownership" },
     {
+      "name": "panoramas",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "panoramaTitle" },
+        { "name": "panoramaURL" },
+        { "name": "panoramaFOV" },
+        { "name": "panoramaStartAngle" },
+        { "name": "panoramaDestinations" }
+      ]
+    },
+    {
       "name": "parcelNumbers",
       "flatten": false,
       "sub_fields": [
