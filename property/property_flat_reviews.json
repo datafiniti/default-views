@@ -294,7 +294,11 @@
       "sub_fields": [
         { "name": "number" },
         { "name": "type" },
-        { "name": "date" }
+        { "name": "status" },
+        { "name": "description" },
+        { "name": "amount" },
+        { "name": "date" },
+        { "name": "completionDate" }
       ]
     },
     { "name": "permits", "flatten": false },
