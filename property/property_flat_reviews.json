@@ -39,6 +39,15 @@
     },
     { "flatten": false, "name": "buildingClass" },
     { "name": "buildingName" },
+    {
+      "name": "businessesAtAddress",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "name" },
+        { "name": "key" },
+        { "name": "dateSeen" }
+      ]
+    },
     { "name": "categories", "flatten": false },
     { "name": "cbsaName" },
     { "name": "cbsaCode" },
