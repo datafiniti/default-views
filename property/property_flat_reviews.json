@@ -45,8 +45,7 @@
       "sub_fields": [
         { "name": "name" },
         { "name": "key" },
-        { "name": "firstDateSeen" },
-        { "name": "lastDateSeen" }
+        { "name": "dateSeen" }
       ]
     },
     { "name": "categories", "flatten": false },
