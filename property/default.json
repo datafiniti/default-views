@@ -48,6 +48,15 @@
     },
     { "flatten": false, "name": "buildingClass" },
     { "name": "buildingName" },
+    {
+      "name": "businessesAtAddress",
+      "flatten": false,
+      "sub_fields": [
+        { "name": "name" },
+        { "name": "key" },
+        { "name": "dateSeen" }
+      ]
+    },
     { "name": "capRate" },
     { "name": "capRateSourceURL" },
     { "name": "cbsaName" },
