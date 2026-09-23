@@ -38,6 +38,8 @@
         { "name": "term"}
       ]
     },
+    { "name": "firstPriceAmount" },
+    { "name": "firstPriceDate" },
     { "name": "flavors", "flatten": false },
     { "name": "gtins", "flatten": false },
     { "name": "imageURLs", "flatten": false },
