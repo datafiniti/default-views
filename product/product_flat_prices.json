@@ -18,6 +18,8 @@
     { "name": "ean8" },
     { "name": "ean13" },
     { "name": "features", "flatten": false },
+    { "name": "firstPriceAmount" },
+    { "name": "firstPriceDate" },
     { "name": "flavors", "flatten": false },
     { "name": "gtins", "flatten": false },
     { "name": "imageURLs", "flatten": false },
