@@ -72,6 +72,7 @@
     { "name": "jobStartDate" },
     { "name": "jobTitle" },
     { "name": "keys", "flatten": false },
+    { "name": "lastCleanIDs", "flatten": false },
     { "name": "lastListingDate" },
     { "name": "lastName" },
     { "name": "lastSoldDate" },

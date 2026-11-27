@@ -41,6 +41,7 @@
     { "name": "isClosed", "flatten": true },
     { "name": "keys", "flatten": false },
     { "name": "languagesSpoken", "flatten": false },
+    { "name": "lastCleanIDs", "flatten": false },
     { "name": "latitude", "flatten": true },
     { "name": "longitude", "flatten": true },
     { "name": "menuPageURL",  "flatten": true },

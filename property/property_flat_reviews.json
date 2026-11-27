@@ -157,6 +157,7 @@
     { "flatten": false, "name": "investmentSubtype" },
     { "flatten": false, "name": "investmentType" },
     { "name": "isUnit" },
+    { "name": "lastCleanIDs", "flatten": false },
     { "name": "latitude" },
     {
       "name": "leasingTerms",

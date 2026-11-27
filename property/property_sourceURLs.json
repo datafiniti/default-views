@@ -211,6 +211,10 @@
     },
     {
       "flatten": false,
+      "name": "lastCleanIDs"
+    },
+    {
+      "flatten": false,
       "name": "latitude"
     },
     {

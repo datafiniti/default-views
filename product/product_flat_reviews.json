@@ -25,6 +25,7 @@
     { "name": "imageURLs", "flatten": false },
     { "name": "isbn" },
     { "name": "keys", "flatten": false },
+    { "name": "lastCleanIDs", "flatten": false },
     { "name": "manufacturer" },
     { "name": "manufacturerNumber" },
     { "name": "merchants", "flatten": false },
