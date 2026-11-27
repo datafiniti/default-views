@@ -55,6 +55,7 @@
     { "name": "imageURLs", "flatten": false },
     { "name": "isbn", "flatten": true },
     { "name": "keys", "flatten": false },
+    { "name": "lastCleanIDs", "flatten": false },
     { "name": "manufacturer", "flatten": true },
     { "name": "manufacturerNumber", "flatten": true },
     { "name": "merchants",  "flatten": false, "sub_fields": [
